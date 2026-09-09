@@ -1,0 +1,1 @@
+{"mode": "same", "deleted_orbits": [1, 3, 5], "deleted_sizes": [6, 12, 6], "refill_sizes": [12, 6, 6], "refill_subgroup_orders": [1, 2, 2], "results": [{"outcome": "unsat", "t": 19.1}]}

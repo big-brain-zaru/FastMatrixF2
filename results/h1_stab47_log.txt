@@ -1,0 +1,3 @@
+GL(4,2): 20160 rank-1 a-factors: 20
+(X,Y) preserving a-factor set: 6 2s
+STABILIZER ORDER (GL^3 sandwich part): 6

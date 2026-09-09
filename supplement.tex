@@ -1,0 +1,418 @@
+% Supplementary material
+% Author: Nadim F. Zaru
+
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{xcolor}
+
+\newcommand{\FF}{\mathbb{F}_2}
+\newcommand{\tw}[3]{\langle #1,#2,#3\rangle}
+\newcommand{\GL}{\mathrm{GL}}
+
+\emergencystretch=3em
+\hbadness=10000
+
+\title{\textbf{Supplementary Material:} \\
+Exact Symmetry-Stratified Search for Fast Matrix Multiplication over $\FF$}
+
+\author{
+  Nadim F. Zaru \\
+  \textit{Independent Researcher} \\
+  \texttt{nadimzaru@gmail.com}
+}
+
+\date{September 9, 2026}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\clearpage
+
+\section{The two rank-47 schemes}
+
+Both schemes below are $\Gamma$-invariant with orbit type $[12,6,6,6,6,3,3,3,1,1]$, satisfy all 4096
+Brent equations by direct evaluation, and share no term. Machine-readable copies are in
+\texttt{alphatensor\_444\_rank47.json} and \texttt{records/gamma47\_B\_rank47.json}, both under
+\texttt{results/}. The script \texttt{experiments/paper\_tables.py} regenerates the table below from
+those files and re-verifies both schemes before printing.
+
+\input{tables_schemes}
+
+\subsection{Reading the bitmasks}
+
+Each factor is a $4\times4$ matrix over $\FF$ encoded as an integer: bit $4i+j$ (least significant bit
+first) holds entry $(i,j)$. For example, $a_t = 1$ is the matrix with a single 1 in position $(0,0)$, and
+$a_t = 4096$ is the matrix with a single 1 in position $(3,0)$. Term $t$ contributes the rank-one tensor
+$a_t \otimes b_t \otimes c_t$ under the index convention of Equation~(1) of the main paper, with the $a$
+factor indexed $(i,j)$, the $b$ factor $(j,k)$ and the $c$ factor $(k,i)$.
+
+\subsection{Invariants of the two schemes}
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+ & AlphaTensor & This work \\
+\midrule
+Rank & 47 & 47 \\
+Host-verified over $\FF$ & yes & yes \\
+Invariant under $\Gamma$ ($|\Gamma| = 12$) & yes & yes \\
+Orbit sizes & $12,6,6,6,6,3,3,3,1,1$ & $12,6,6,6,6,3,3,3,1,1$ \\
+Stabilizer orders & $1,2,2,2,2,4,4,4,12,12$ & $1,2,2,2,2,4,4,4,12,12$ \\
+$a$-factor ranks & $\{1{:}20,\,2{:}12,\,3{:}15\}$ & $\{1{:}19,\,2{:}12,\,3{:}16\}$ \\
+$b$-factor ranks & $\{1{:}20,\,2{:}12,\,3{:}15\}$ & $\{1{:}19,\,2{:}12,\,3{:}16\}$ \\
+$c$-factor ranks & $\{1{:}9,\,2{:}24,\,3{:}13,\,4{:}1\}$ & $\{1{:}13,\,2{:}24,\,3{:}9,\,4{:}1\}$ \\
+Shared factors ($a$/$b$/$c$) & 0 / 0 / 0 & 0 / 0 / 0 \\
+Lifts to $\mathbb{Z}/4$ & no & no \\
+Terms in common & \multicolumn{2}{c}{0} \\
+Related by an element of $\Omega$ ($|\Omega| = 82{,}944$) & \multicolumn{2}{c}{no} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The weight histograms (total number of set bits across the three factors of a term) also differ:
+$\{5{:}3,\ 7{:}3,\ 8{:}6,\ 9{:}13,\ 10{:}9,\ 12{:}12,\ 15{:}1\}$ for AlphaTensor's scheme, against
+$\{10{:}6,\ 12{:}3,\ 14{:}6,\ 16{:}12,\ 17{:}12,$ $22{:}1,\ 24{:}3,\ 25{:}1,\ 27{:}3\}$ for the new one.
+The second scheme is markedly denser: its terms carry roughly twice as many nonzero entries.
+
+\section{Encoding details}
+
+\subsection{Instance construction}
+
+A census or rewrite instance is fixed by a triple: a group $G \leq \GL(4,2)^3 \rtimes S_3$, a multiset of
+subgroups $H_1,\dots,H_m \leq G$ (the \emph{slot list}) with $\sum_i [G:H_i]$ equal to the target rank,
+and, for a rewrite instance, a residual tensor obtained by subtracting the kept orbits from the target.
+The encoder emits:
+
+\begin{itemize}
+\item $3n^2$ Boolean variables per slot for the representative term's factor bits, constrained so that
+the representative is fixed by its slot's subgroup;
+\item Tseitin variables for each distinct degree-3 monomial $a[i,j]\,b[j,k]\,c[k,i]$ appearing anywhere,
+defined by the usual AND clauses;
+\item one XOR constraint per $G$-orbit of tensor coordinates, expanded into CNF, equating the sum of
+monomials over all terms with the residual value at a representative coordinate;
+\item nonzero clauses forbidding an all-zero factor on any axis of any slot, which is sound because a
+term with a zero factor contributes nothing and can be deleted, lowering the rank.
+\end{itemize}
+
+\subsection{The two exact reductions}
+
+\textbf{E1 (orbit equations).} An encoded scheme is a sum of complete $G$-orbits of terms, so the value
+of the encoded tensor at coordinates $P$ and $gP$ is the same expression for every $g \in G$. Emitting
+one equation per orbit of coordinates is therefore an exact rewriting, not a relaxation. For $\Gamma$ at
+$n=4$ this replaces the 4096 equations by 379.
+
+\textbf{E2 (gate sharing).} The same degree-3 monomials recur across the surviving equations. Introducing
+one Tseitin variable per distinct monomial, cached across the whole instance, removes the duplication.
+
+\textbf{Validation.} Both reductions were validated by (i) recovering AlphaTensor's 47 from its own orbit
+type under the reduced encoding, with the decoded scheme identical to the input and host-verified, and
+(ii) an exhaustive $n=2$ cross-check against the unreduced encoder: 44 of 44 census instances agreed on
+verdict. Measured effect on a from-scratch $4	imes4$ census instance of an order-12 group with orbit
+type $[12,12,12,6,3,1]$:
+
+egin{center}
+egin{tabular}{llrrr}
+	oprule
+E1 & E2 & Variables & Clauses & Equations \
+\midrule
+off & off & 561{,}440 & 1{,}872{,}962 & 4096 \
+off & on  & 210{,}720 & 820{,}802 & 4096 \
+on  & off & 52{,}896 & 176{,}578 & 384 \
+on  & on  & 34{,}304 & 120{,}802 & 384 \
+ottomrule
+\end{tabular}
+\end{center}
+
+
+oindent That is a 16.4-fold reduction in variables and a 15.5-fold reduction in clauses. Measured
+effect on solve time, on the instances that motivated the change:
+
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+Instance & Old encoder, CaDiCaL 1.5.3 & E1+E2, CaDiCaL 1.9.5 \\
+\midrule
+census group 7 & 191\,s & 1.6\,s \\
+census group 33 & 139\,s & 25\,s \\
+census group 2 & undecided & 19\,s \\
+hardest orbit-rewrite shape & $10^{8}$ conflicts & $\leq 29$\,s \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Blocking solutions}
+
+Same-rank searches must exclude the input scheme, and enumeration of distinct schemes must exclude what
+has already been found. Blocking the satisfying \emph{assignment} is insufficient: the same term set
+reappears under a different assignment of representatives to slots. We block at the \emph{set} level,
+adding for each blocked scheme a clause asserting that at least one term differs, using equality gadgets
+over the decoded term bits. An earlier version of this campaign blocked at the assignment level, which
+caused two over-counts that were found and corrected before publication: a set of same-rank $4\times4$
+instances that had returned only relabelings had not in fact been decided (closed afterwards by 237
+UNSAT instances), and a set of 15 result files at $5\times5$ was found to contain 6 distinct schemes
+rather than 15.
+
+\section{The fixed-point filter in practice}
+
+\subsection{Reach}
+
+Of the 64 cyclic conjugacy classes of the ambient permutation group $\Omega$ at $n=4$:
+
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Classes with an involution & 59 \\
+\quad of which the involution has fixed coordinates & 19 \\
+\qquad with 64 fixed coordinates ($\tw222$ fixed format) & 10 \\
+\qquad with 256 fixed coordinates ($\tw224$) & 6 \\
+\qquad with 1024 fixed coordinates ($\tw244$) & 3 \\
+Classes of odd order (no involution) & 5 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+For the 40 classes whose involution has no fixed coordinate the projected system is empty and the filter
+has no power; this is visible as the flat row at zero in Figure~5 of the main paper.
+
+\subsection{Power}
+
+\begin{center}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Scope & Multisets & Count bound & SAT filter & Filter budget & Survivors$^{*}$ \\
+\midrule
+All 64 classes & 11{,}767 & 416 & 476 & 465 & 10{,}875 \\
+The 19 reachable classes & 4{,}236 & 416 & 476 & 465 & 3{,}344 \\
+Group 6 (order 12, $\tw224$) & 300 & 27 & 148 & 5 & 120 \\
+Groups 20, 21 (order 6, $\tw244$) & 600 & 238 & 22 & 329 & 11 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+$^{*}$Survivors include the instances on which the filter itself exhausted its 50{,}000-conflict budget,
+which are passed on rather than refuted. The whole pass took 14 minutes on 10 processes and produced 892 exact refutations. Its own hard cases are
+the near-tight small-format instances (14--22 fixed terms for a rank-14 target), where CDCL needs
+minutes; a 50{,}000-conflict cap with the policy ``budget exhausted means survive'' was adopted, which
+keeps the filter sound by construction.
+
+\subsection{Small-format ranks}
+
+The corollary needs the bilinear rank of the fixed format. Computed by SAT over $\FF$:
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+Format & Result & Evidence \\
+\midrule
+$\tw222$ & rank $= 7$ & rank $\leq 6$ UNSAT in 35.9\,s; rank $\leq 7$ SAT, verified \\
+$\tw224$ & rank $\leq 14$ & rank $\leq 13$ undecided at $5\times10^{6}$ conflicts \\
+$\tw244$ & rank $\geq 16$ & flattening bound; not tightened \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+For a swap-type involution the restricted terms are rank-one matrices and the bound is the matrix rank of
+the restricted target, which is 4 at $n=4$.
+
+\section{Full campaign tallies}
+
+Every campaign below is an exhaustive enumeration over the stated instance family, with one JSON record
+per instance in \texttt{results/*.jsonl}. ``Solver hours'' is the sum of the recorded per-instance solve
+times, so it excludes encoding and process overhead.
+
+\begin{center}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Campaign & UNSAT & SAT & Undecided & Solver hours \\
+\midrule
+$4\times4$ rank 46, $\leq2$ orbits deleted, refills $\leq4$ & 4{,}011 & 0 & 0 & 9.0 \\
+$4\times4$ rank 46, $\leq2$ orbits, refills 5--17 & 7{,}729 & 0 & 0 & 15.1 \\
+$4\times4$ rank 46, 3 orbits deleted, refills $\leq4$ & 5{,}765 & 0 & 0 & 17.7 \\
+$4\times4$ same rank, $\leq2$ orbits & 1{,}578 & 54 & 0 & 8.6 \\
+$4\times4$ same rank, 3 orbits & 5{,}669 & 51 & 17 & 35.7 \\
+\quad closure of the 17 open shapes (all class combinations) & 237 & 0 & 0 & 0.7 \\
+$4\times4$ rank 46 around the second 47 & 1{,}763 & 0 & 0 & 0.07 \\
+$4\times4$ same rank around the second 47 & 1{,}961 & 0 & 0 & 0.07 \\
+$4\times4$ rank 46 from scratch (cyclic census, 3\,h) & 7 & 0 & 93 & 28.9 \\
+$5\times5$ rank 92 from the record & 648 & 0 & 0 & 0.2 \\
+$5\times5$ rank 92, 3 orbits, from the record & 6{,}851 & 0 & 0 & 15.9 \\
+$5\times5$ rank 92 over 64 family members & 41{,}472 & 0 & 0 & 8.9 \\
+$5\times5$ rank 92, 3 orbits, two far seeds & 9{,}635 & 0 & 0 & 17.9 \\
+$5\times5$ same rank from the record & 681 & 435 & 0 & 1.0 \\
+$6\times6$ rank 152 from the record & 1{,}578 & 0 & 0 & 1.7 \\
+$6\times6$ rank 152 over 11 family members & 16{,}311 & 0 & 0 & 20.2 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The 51 and 54 SAT outcomes in the $4\times4$ same-rank rows all decoded to relabelings of the input
+scheme and were blocked; after the closure pass, no $\Gamma$-invariant rank-47 scheme other than the
+input exists in that neighbourhood.
+
+\subsection{Solve-time distributions}
+
+\begin{center}
+\begin{tabular}{llrrrr}
+\toprule
+Campaign group & Outcome & $n$ & Median (s) & p90 (s) & Max (s) \\
+\midrule
+$4\times4$ orbit rewrites & UNSAT & 20{,}714 & 3.4 & 20.5 & 11{,}369.5 \\
+                          & SAT & 595 & 26.8 & 151.9 & 989.4 \\
+                          & budget & 22 & 1186.1 & 1498.2 & 1903.6 \\
+$5\times5$ / $6\times6$ rewrites & UNSAT & 3{,}555 & 1.9 & 5.1 & 8.3 \\
+                          & SAT & 2{,}544 & 2.4 & 4.5 & 10.0 \\
+$4\times4$ census, from scratch & UNSAT & 7 & 137.0 & 170.4 & 191.0 \\
+                          & budget & 93 & 1001.0 & 1919.7 & 3173.1 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The consistent pattern --- refutations in seconds to minutes, budget exhaustions two to three orders of
+magnitude slower --- is the empirical basis for the budget policy: short sweep budgets, a wall-time
+watchdog per instance, and targeted re-runs at a hundred times the budget only for recorded exhaustions.
+
+\section{Census state at the freeze}
+
+The two censuses that were still running when the machine was needed elsewhere are enumerated,
+checkpointed per instance and resumable. Their state is frozen in the file
+\texttt{investigation\_state.json} under \texttt{results/}.
+
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Census & Processed & Exact refutations & Undecided / surviving \\
+\midrule
+$\Gamma$-invariant rank 46 (filter stage) & 23{,}072 of 47{,}210 & 21{,}647 & 1{,}425 surviving \\
+Odd-order $\GL(4,2)^3$ cyclic & 1{,}861 of 4{,}321 & 1{,}795 & 66 undecided at 300\,s \\
+Diagonal permutation subgroups & 452 & 441 & 11 undecided \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The odd-order census is complete for groups of order 15 (1{,}668 UNSAT, 28 undecided) and order 21 (127
+UNSAT, 38 undecided); orders 35 and 105 are not started. The diagonal permutation census refuted the
+first 150 orbit-type multisets of $S_4\times C_3$ (100 by the count bound, 11 by the filter, 39 by full
+solves) and of $S_4\times S_3$ (120 by the count bound, 30 by the filter), and left 9 undecided in the
+diagonal $S_4$ family.
+
+\section{The rank-49 attractor}
+
+All 3{,}257 host-verified rank-49 schemes found by three different flip dynamics have the factor-rank
+signature $\{1{:}36,\,2{:}12,\,4{:}1\}$ on each of the three axes --- identical to
+Strassen$^{\otimes2}$'s. Since the signature is a $\GL(4,2)^3$-invariant, they all lie in the same
+equivalence family, and no walk left it.
+
+Two steering strategies were tested and retired:
+
+\begin{itemize}
+\item \textbf{Forbid rank-4 factors.} The gated walk did leave the attractor (floor 50, 2{,}278 distinct
+signatures), but 5{,}883 of 6{,}000 rank-50 ancestors of the 47 --- generated by plus transitions from the
+47 itself --- contain a rank-4 factor, and the gated pool shares zero signatures with the ancestor set.
+The gate excludes the target's basin by construction.
+\item \textbf{Stay in the $\tau$-quotient.} From a trivial start the quotient walk plateaus at rank 55
+with 13 $\tau$-fixed terms and 21 pairs, whereas every symmetric rank-55 ancestor of the 47 has 11 fixed
+terms; the two sets of 1{,}594 and 1{,}371 signatures share nothing.
+\end{itemize}
+
+A useful by-product of the second attempt: in the $\tau$-quotient, without a move that changes a fixed
+term's $a$-factor, the fixed-term count is frozen and only even ranks are reachable. The identity
+$(a+e)(a+e)^{\mathsf T} = aa^{\mathsf T} + ae^{\mathsf T} + ea^{\mathsf T} + ee^{\mathsf T}$ yields four
+symmetric moves, two of which are $3\to2$ reductions the plain flip graph cannot express. They lifted
+$\tau$-symmetric $3\times3$ walks from 25 to 23 and freed the parity at $4\times4$, changing the floor
+from 56 to 55.
+
+\section{Process findings}
+
+These are engineering observations, recorded because they cost real time to learn and are not specific
+to this problem.
+
+\begin{center}
+\begin{tabular}{p{0.42\textwidth}p{0.52\textwidth}}
+\toprule
+Finding & Rule adopted \\
+\midrule
+Conflict budgets do not bound wall time: instances with a $10^6$-conflict budget ran 15--53 minutes when
+the conflict rate collapsed. & A wall-time watchdog per instance, independent of the conflict budget. \\
+Decidable instances decide fast; budgets are consumed by undecidable ones. & Short sweep budgets, then
+targeted re-runs at $10^{8}$ conflicts only for recorded exhaustions. \\
+Conjugacy deduplication of stabilizers is exact and large: 9{,}605 $\to$ 1{,}763 instances in one sweep,
+87{,}371 $\to$ 5{,}737 in another. & Always enumerate over conjugacy classes, never over subgroups. \\
+Folding kept structure into a residual: 574{,}000 $\to$ 4{,}400 variables. & Never encode what is
+already decided. \\
+Assumption-based incremental SAT was slower than fresh instances (822\,s versus 3.5\,s on the same
+instance). & Fresh instances, with the encoding template cached. \\
+Lex-leader symmetry breaking is sound but direction-dependent: about $2\times$ faster on UNSAT,
+$10$--$64\times$ slower on satisfiable controls. & Opt-in, for refutation sweeps only. \\
+12 physical cores, not 24: 24 processes cut throughput about sixfold. & At most 12--16 solver workers on
+small instances, 6--8 on large ones. \\
+Static striding creates stragglers: 2 of 12 workers held 249 instances. & A cost-sorted work queue with
+a per-instance wall cap. \\
+Two PySAT bindings misbehaved: Kissat 4.0.4 returned a wrong answer on a five-clause formula and then
+crashed; CaDiCaL 3.0.0 crashed silently. & Both excluded; all results use CaDiCaL 1.9.5. \\
+Process-kill verification by name count missed live processes twice. & List full command lines before
+declaring a run stopped. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Reproducibility}
+
+\subsection{What is archived}
+
+\begin{itemize}
+\item \texttt{results/records/} --- the imported and newly found record-rank schemes, including
+\texttt{gamma47\_B\_rank47.json} (the second rank-47 scheme).
+\item \texttt{results/*.json} --- every host-verified scheme produced, each carrying its
+\texttt{scheme\_bitmasks} and a \texttt{verified\_brent\_f2} flag.
+\item \texttt{results/*.jsonl} --- one record per SAT instance for every campaign, carrying the
+instance key, the outcome and the solve time.
+\item \texttt{results/investigation\_state.json} --- frozen tallies of the two censuses still in progress.
+\item \texttt{results/certificates/} --- DRAT proofs emitted through Glucose 4.2 for a sample of
+theorem-grade refutations.
+\end{itemize}
+
+\noindent The public code repository carries all of the above. The Zenodo deposit additionally holds the
+solver stdout and stderr files and the bulk flip-graph walker pools, which are process output and
+intermediate data rather than results.
+
+\subsection{Regenerating this paper's content}
+
+From \texttt{experiments/}:
+
+\begin{center}
+\small
+\begin{tabular}{ll}
+\toprule
+Command & Effect \\
+\midrule
+\texttt{python reproduce.py} & 21 checks of the headline counts against \texttt{results/} \\
+\texttt{python paper\_data.py} & recomputes every number in both papers into \texttt{paper\_data.json} \\
+\texttt{python paper\_figures.py} & regenerates \texttt{figures/*.pdf} and \texttt{*.png} \\
+\texttt{python paper\_tables.py} & regenerates \texttt{tables\_main.tex}, \texttt{tables\_schemes.tex} \\
+\texttt{python fp\_filter.py --selftest} & validates the fixed-point lemma, including the $n=2$ cross-check \\
+\texttt{python encode\_opt.py --selftest} & validates the E1+E2 encoding against the unreduced encoder \\
+\texttt{python glsym.py --selftest} & validates the general-linear symmetry encoder \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\texttt{paper\_data.py} re-verifies every scheme it reports against the Brent equations and re-aggregates
+every campaign tally from the per-instance logs, so the numbers in the papers are not transcribed from
+any narrative document.
+
+\subsection{System requirements}
+
+Python 3.9 or later, \texttt{python-sat} (for CaDiCaL 1.9.5), NumPy and Matplotlib. The GPU walkers
+additionally need CuPy and a CUDA device; they are not required to reproduce any result in the papers,
+all of which are CPU SAT computations or direct verifications.
+
+\end{document}

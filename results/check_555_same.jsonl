@@ -1,0 +1,2 @@
+{"n": 5, "group": "cyc", "mode": "same", "deleted_orbits": [0], "deleted_sizes": [3], "refill_sizes": [3], "refill_subgroup_orders": [1], "vars": 80075, "clauses": 286878, "results": [{"outcome": "sat", "t": 0.2, "rank": 93, "verified": true, "identical": true}]}
+{"n": 5, "group": "cyc", "mode": "same", "deleted_orbits": [2], "deleted_sizes": [1], "refill_sizes": [1], "refill_subgroup_orders": [3], "vars": 16325, "clauses": 64678, "results": [{"outcome": "sat", "t": 0.0, "rank": 93, "verified": true, "identical": true}]}

@@ -1,0 +1,2 @@
+LNS-SAT on rank 49 <4,4,4>: delete k=8, solve k-1, timeout 60s, symmetric=False
+  try 0: removed 8, timeout (405.1s)

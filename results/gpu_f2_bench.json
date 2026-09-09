@@ -1,0 +1,5 @@
+{
+ "xor_popcount_bitops_per_sec": 870721817420.3339,
+ "batched_flip_steps_per_sec_1M_walks": 52507594.20855922,
+ "cpu_python_flips_per_sec_measured": 234176
+}

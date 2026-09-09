@@ -1,0 +1,7 @@
+loaded 3256 pool schemes -> pool 3261
+  rank 49: VERIFIED (new record for this run)
+[   16.2s] launch 20: best=49 pool=3274 elites=256 top-policy=[10000, 3, 0, 3] 122M steps/s
+[   33.7s] launch 40: best=49 pool=3281 elites=256 top-policy=[10000, 3, 0, 3] 117M steps/s
+[   53.3s] launch 60: best=49 pool=3299 elites=256 top-policy=[10000, 3, 0, 3] 111M steps/s
+[   74.2s] launch 80: best=49 pool=3323 elites=256 top-policy=[10000, 3, 0, 3] 106M steps/s
+[   96.8s] launch 100: best=49 pool=3347 elites=256 top-policy=[10000, 3, 0, 3] 102M steps/s

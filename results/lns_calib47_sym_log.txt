@@ -1,0 +1,10 @@
+LNS-SAT on rank 47 <4,4,4>: delete k=8, solve k-1, timeout 60s, symmetric=True
+  try 0: removed 8 -> re-solved with 8: rank 47 VERIFIED=True (0.2s)
+  try 1: removed 8 -> re-solved with 8: rank 47 VERIFIED=True (0.2s)
+  try 2: removed 8 -> re-solved with 8: rank 47 VERIFIED=True (1.3s)
+{"stats": {"sat": 3, "unsat": 0, "timeout": 0}, "seconds": 1.5873875617980957}
+LNS-SAT on rank 47 <4,4,4>: delete k=9, solve k-1, timeout 60s, symmetric=True
+  try 0: removed 10, unsat (0.3s)
+  try 1: removed 9 -> re-solved with 9: rank 47 VERIFIED=True (1.9s)
+  try 2: removed 9 -> re-solved with 9: rank 47 VERIFIED=True (2.4s)
+{"stats": {"sat": 2, "unsat": 1, "timeout": 0}, "seconds": 4.621683835983276}

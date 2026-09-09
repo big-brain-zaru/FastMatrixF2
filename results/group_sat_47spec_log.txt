@@ -1,0 +1,123 @@
+group order: 12
+subgroups: [1, 2, 2, 2, 2, 2, 2, 2, 3, 4, 4, 4, 6, 6, 6, 12]
+orbit sizes available: {12: 1, 6: 7, 4: 1, 3: 3, 2: 3, 1: 1}
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (8.5s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (7.6s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (10.6s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (8.0s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (7.6s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (11.5s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (18.1s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (11.1s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (14.2s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (9.9s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (11.6s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (10.9s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (19.4s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (11.0s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (8.5s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (9.8s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (8.9s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (14.1s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (9.8s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (10.7s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (9.0s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (12.9s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (9.3s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (13.3s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (9.0s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (10.5s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915830 terms=47
+  unsat (11.8s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (18.2s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (8.1s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (8.2s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (28.9s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (24.5s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (13.2s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (9.3s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (14.5s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (8.0s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (9.0s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (10.5s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (8.5s)
+[spec] sizes=[12, 6, 6, 6, 6, 3, 3, 3, 1, 1] subgroup-orders=[1, 2, 2, 2, 2, 4, 4, 4, 12, 12]
+  vars=573920 clauses=1915814 terms=47
+  unsat (9.2s)

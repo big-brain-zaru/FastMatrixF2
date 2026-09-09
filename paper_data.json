@@ -1,0 +1,1147 @@
+{
+ "generated": "2026-09-09 09:53",
+ "source": "experiments/paper_data.py",
+ "schemes": {
+  "47_alphatensor": {
+   "rank": 47,
+   "verified": true,
+   "gamma_invariant": true,
+   "orbit_sizes": [
+    12,
+    6,
+    6,
+    6,
+    6,
+    3,
+    3,
+    3,
+    1,
+    1
+   ],
+   "signature": [
+    {
+     "1": 20,
+     "2": 12,
+     "3": 15
+    },
+    {
+     "1": 20,
+     "2": 12,
+     "3": 15
+    },
+    {
+     "1": 9,
+     "2": 24,
+     "3": 13,
+     "4": 1
+    }
+   ],
+   "shared": [
+    0,
+    0,
+    0
+   ],
+   "weights": {
+    "5": 3,
+    "7": 3,
+    "8": 6,
+    "9": 13,
+    "10": 9,
+    "12": 12,
+    "15": 1
+   }
+  },
+  "47_second": {
+   "rank": 47,
+   "verified": true,
+   "gamma_invariant": true,
+   "orbit_sizes": [
+    12,
+    6,
+    6,
+    6,
+    6,
+    3,
+    3,
+    3,
+    1,
+    1
+   ],
+   "signature": [
+    {
+     "1": 19,
+     "2": 12,
+     "3": 16
+    },
+    {
+     "1": 19,
+     "2": 12,
+     "3": 16
+    },
+    {
+     "1": 13,
+     "2": 24,
+     "3": 9,
+     "4": 1
+    }
+   ],
+   "shared": [
+    0,
+    0,
+    0
+   ],
+   "weights": {
+    "10": 6,
+    "12": 3,
+    "14": 6,
+    "16": 12,
+    "17": 12,
+    "22": 1,
+    "24": 3,
+    "25": 1,
+    "27": 3
+   }
+  },
+  "49_self_found": {
+   "rank": 49,
+   "verified": true,
+   "signature": [
+    {
+     "1": 36,
+     "2": 12,
+     "4": 1
+    },
+    {
+     "1": 36,
+     "2": 12,
+     "4": 1
+    },
+    {
+     "1": 36,
+     "2": 12,
+     "4": 1
+    }
+   ],
+   "shared": [
+    0,
+    0,
+    0
+   ]
+  },
+  "49_strassen_squared": {
+   "rank": 49,
+   "verified": true,
+   "signature": [
+    {
+     "1": 36,
+     "2": 12,
+     "4": 1
+    },
+    {
+     "1": 36,
+     "2": 12,
+     "4": 1
+    },
+    {
+     "1": 36,
+     "2": 12,
+     "4": 1
+    }
+   ],
+   "shared": [
+    0,
+    0,
+    0
+   ]
+  },
+  "93_record": {
+   "rank": 93,
+   "verified": true,
+   "C3_invariant": true,
+   "shared": [
+    5,
+    5,
+    5
+   ],
+   "orbit_sizes": {
+    "3": 30,
+    "1": 3
+   }
+  },
+  "153_record": {
+   "rank": 153,
+   "verified": true,
+   "C3_invariant": true,
+   "shared": [
+    16,
+    16,
+    16
+   ],
+   "orbit_sizes": {
+    "3": 50,
+    "1": 3
+   }
+  }
+ },
+ "group_gamma": {
+  "order": 12,
+  "stabilizer_orders": [
+   1,
+   2,
+   2,
+   2,
+   2,
+   4,
+   4,
+   4,
+   12,
+   12
+  ]
+ },
+ "two_47s": {
+  "common_terms": 0,
+  "signatures_differ": true,
+  "signature_multisets_differ": true,
+  "ambient_group_order": 82944,
+  "equivalent_under_ambient_group": false,
+  "both_flip_isolated": true
+ },
+ "z4_lift": {
+  "47_alphatensor_lifts_to_Z4": false,
+  "47_second_lifts_to_Z4": false,
+  "strassen_squared_lifts_to_Z4": true,
+  "system": "4096 equations, 2256 unknowns over F2 at the first level"
+ },
+ "strassen_f2": {
+  "rank7_term_sets": 36,
+  "orbits_under_GL22_cubed_times_S3": 1,
+  "orbit_sizes": [
+   36
+  ],
+  "sample_all_verified": true
+ },
+ "theorems_4x4": {
+  "T1_instance_keys": 1090,
+  "T1_all_unsat": true,
+  "T2_instance_keys": 1083,
+  "T2_all_unsat_after_reruns": true,
+  "T3_instance_keys": 1322,
+  "T3_open_after_day3": 17,
+  "T3_closure_outcomes": {
+   "unsat": 237
+  },
+  "T3_new_47s_in_closure": 0,
+  "raw_instance_records": {
+   "T1": 8706,
+   "T2": 5770,
+   "T3": 6322
+  }
+ },
+ "theorems_47B": {
+  "reduce46_instances": 1763,
+  "reduce46_outcomes": {
+   "unsat": 1763
+  },
+  "same_rank_instances": 1961,
+  "same_rank_outcomes": {
+   "unsat": 1961
+  },
+  "solver_hours": 0.141
+ },
+ "theorems_5x5_6x6": {
+  "T4_record_D2_instances": 648,
+  "T4_all_unsat": true,
+  "T5_record_D2_instances": 1578,
+  "T5_all_unsat": true,
+  "T4_extended": {
+   "D2_over_64_pool_members": {
+    "seeds": 64,
+    "instances": 41472,
+    "outcomes": {
+     "unsat": 41472
+    },
+    "solver_hours": 8.89,
+    "per_seed": {
+     "ON5red2_00": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_01": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_02": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_03": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_04": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_05": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_06": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_07": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_08": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_09": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_10": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_11": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_12": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_13": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_14": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_15": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_16": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_17": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_18": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_19": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_20": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_21": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_22": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_23": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_24": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_25": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_26": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_27": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_28": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_29": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_30": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_31": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_32": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_33": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_34": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_35": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_36": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_37": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_38": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_39": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_40": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_41": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_42": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_43": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_44": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_45": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_46": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_47": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_48": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_49": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_50": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_51": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_52": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_53": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_54": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_55": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_56": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_57": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_58": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_59": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_60": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_61": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_62": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     },
+     "ON5red2_63": {
+      "instances": 648,
+      "outcomes": {
+       "unsat": 648
+      }
+     }
+    }
+   },
+   "D3_far_seeds": {
+    "seeds": 2,
+    "instances": 9635,
+    "outcomes": {
+     "unsat": 9635
+    },
+    "solver_hours": 17.91,
+    "per_seed": {
+     "ON5red3_00": {
+      "instances": 6851,
+      "outcomes": {
+       "unsat": 6851
+      }
+     },
+     "ON5red3_01": {
+      "instances": 2784,
+      "outcomes": {
+       "unsat": 2784
+      }
+     }
+    }
+   }
+  },
+  "T5_extended": {
+   "D2_over_11_seeds": {
+    "seeds": 11,
+    "instances": 16311,
+    "outcomes": {
+     "unsat": 16311
+    },
+    "solver_hours": 20.17,
+    "per_seed": {
+     "C26red2_00": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     },
+     "C26red2_01": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     },
+     "C26red2_02": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     },
+     "C26red2_03": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     },
+     "C26red2_04": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     },
+     "C26red2_05": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     },
+     "C26red2_06": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     },
+     "C26red2_07": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     },
+     "C26red2_08": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     },
+     "C26red2_09": {
+      "instances": 531,
+      "outcomes": {
+       "unsat": 531
+      }
+     },
+     "ON6red2_00": {
+      "instances": 1578,
+      "outcomes": {
+       "unsat": 1578
+      }
+     }
+    }
+   }
+  },
+  "rank92_files_found": [],
+  "rank152_files_found": []
+ },
+ "families": {
+  "5x5": {
+   "distinct": 307,
+   "all_verified": true,
+   "all_C3": true,
+   "expanded": 125,
+   "unexpanded": 182,
+   "expansion_instances": 140359,
+   "expansion_all_terminated_unsat": true,
+   "signatures": 18,
+   "sig_weight_classes": 272,
+   "shared_hist": {
+    "9/9/9": 77,
+    "7/7/7": 71,
+    "8/8/8": 60,
+    "5/5/5": 48,
+    "10/10/10": 23,
+    "11/11/11": 21,
+    "6/6/6": 6,
+    "12/12/12": 1
+   },
+   "common_hist": {
+    "69": 8,
+    "72": 35,
+    "75": 69,
+    "78": 102,
+    "81": 58,
+    "84": 26,
+    "87": 8,
+    "93": 1
+   }
+  },
+  "6x6": {
+   "distinct": 79,
+   "all_verified": true,
+   "all_C3": true,
+   "expanded": 5,
+   "unexpanded": 74,
+   "expansion_instances": 14280,
+   "expansion_all_terminated_unsat": true,
+   "signatures": 13,
+   "sig_weight_classes": 47,
+   "shared_hist": {
+    "16/16/16": 41,
+    "14/14/14": 25,
+    "12/12/12": 12,
+    "10/10/10": 1
+   },
+   "common_hist": {
+    "135": 10,
+    "138": 2,
+    "141": 48,
+    "144": 2,
+    "147": 16,
+    "153": 1
+   }
+  },
+  "walks": {
+   "5": {
+    "walks": 218,
+    "best_ranks": {
+     "93": 218
+    },
+    "hits": 0,
+    "median_msteps": 35.4,
+    "total_steps": 561242274295.9939
+   },
+   "6": {
+    "walks": 77,
+    "best_ranks": {
+     "153": 77
+    },
+    "hits": 0,
+    "median_msteps": 26.1,
+    "total_steps": 279542503838.6367
+   }
+  }
+ },
+ "campaign_stages": [
+  {
+   "stage": "A1 |D|<=2, refill<=4",
+   "unsat": 4011,
+   "sat": 0,
+   "budget": 0,
+   "solver_hours": 8.99
+  },
+  {
+   "stage": "A1 completeness, refill 5-17",
+   "unsat": 7729,
+   "sat": 0,
+   "budget": 0,
+   "solver_hours": 15.06
+  },
+  {
+   "stage": "A2 |D|=3, refill<=4",
+   "unsat": 5760,
+   "sat": 0,
+   "budget": 5,
+   "solver_hours": 17.66
+  },
+  {
+   "stage": "N1 |D|<=2 same-rank",
+   "unsat": 1578,
+   "sat": 54,
+   "budget": 0,
+   "solver_hours": 8.64
+  },
+  {
+   "stage": "N1 |D|=3 same-rank",
+   "unsat": 5669,
+   "sat": 51,
+   "budget": 17,
+   "solver_hours": 35.66
+  },
+  {
+   "stage": "C 5x5 rank-92",
+   "unsat": 648,
+   "sat": 0,
+   "budget": 0,
+   "solver_hours": 0.21
+  },
+  {
+   "stage": "C 6x6 rank-152",
+   "unsat": 1578,
+   "sat": 0,
+   "budget": 0,
+   "solver_hours": 1.74
+  },
+  {
+   "stage": "C 5x5 same-rank",
+   "unsat": 681,
+   "sat": 435,
+   "budget": 0,
+   "solver_hours": 0.97
+  },
+  {
+   "stage": "B2 census (3 h)",
+   "unsat": 7,
+   "sat": 0,
+   "budget": 93,
+   "solver_hours": 28.93
+  }
+ ],
+ "solve_times": {
+  "orbit_lns_4x4": {
+   "unsat": {
+    "n": 20714,
+    "median": 3.4,
+    "p90": 20.5,
+    "max": 11369.5
+   },
+   "budget": {
+    "n": 22,
+    "median": 1186.05,
+    "p90": 1498.19,
+    "max": 1903.6
+   },
+   "sat": {
+    "n": 595,
+    "median": 26.8,
+    "p90": 151.9200000000001,
+    "max": 989.4
+   }
+  },
+  "orbit_lns_5x5_6x6": {
+   "unsat": {
+    "n": 3555,
+    "median": 1.9,
+    "p90": 5.1,
+    "max": 8.3
+   },
+   "sat": {
+    "n": 2544,
+    "median": 2.4,
+    "p90": 4.5,
+    "max": 10.0
+   }
+  },
+  "census_B2": {
+   "budget": {
+    "n": 93,
+    "median": 1001.0,
+    "p90": 1919.6799999999998,
+    "max": 3173.1
+   },
+   "unsat": {
+    "n": 7,
+    "median": 137.0,
+    "p90": 170.42000000000002,
+    "max": 191.0
+   }
+  }
+ },
+ "filter": {
+  "instances": 11767,
+  "verdicts": {
+   "pass": 10410,
+   "count": 415,
+   "budget": 465,
+   "unsat": 476,
+   "count7": 1
+  },
+  "eliminated_exactly": 892,
+  "B2_full_solves": {
+   "budget": 93,
+   "unsat": 7
+  }
+ },
+ "censuses": {
+  "frozen_at": "2026-09-06 16:14",
+  "gamma46": {
+   "processed": 23072,
+   "total": 47210,
+   "outcomes": {
+    "count": 14724,
+    "filter": 6923,
+    "pass": 1425
+   },
+   "by_slots": {
+    "5": {
+     "count": 3
+    },
+    "6": {
+     "count": 35
+    },
+    "7": {
+     "count": 148
+    },
+    "8": {
+     "count": 479,
+     "filter": 11
+    },
+    "9": {
+     "count": 1214,
+     "filter": 116,
+     "pass": 11
+    },
+    "10": {
+     "count": 2259,
+     "filter": 468,
+     "pass": 84
+    },
+    "11": {
+     "filter": 1354,
+     "count": 3682,
+     "pass": 308
+    },
+    "12": {
+     "filter": 2817,
+     "count": 4851,
+     "pass": 777
+    },
+    "13": {
+     "filter": 2157,
+     "count": 2053,
+     "pass": 245
+    }
+   },
+   "survivors_listed": 1425
+  },
+  "gl_odd": {
+   "processed": 1861,
+   "outcomes": {
+    "unsat": 1795,
+    "wall": 66
+   },
+   "by_order": {
+    "15": {
+     "unsat": 1668,
+     "wall": 28
+    },
+    "21": {
+     "unsat": 127,
+     "wall": 38
+    }
+   },
+   "total": 4321
+  },
+  "permutation": {
+   "instances": 452,
+   "per_group": {
+    "diagS4sub24_0132": {
+     "count": 137,
+     "filter": 4,
+     "budget": 9
+    },
+    "diagS4sub24_0132xcyc": {
+     "unsat": 39,
+     "count": 100,
+     "filter": 11
+    },
+    "diagS4sub24_0132xcyctau": {
+     "filter": 30,
+     "count": 120
+    },
+    "diagS4sub12_0231": {
+     "budget": 2
+    }
+   },
+   "outcomes": {
+    "count": 357,
+    "filter": 45,
+    "budget": 11,
+    "unsat": 39
+   }
+  }
+ },
+ "small_formats": {
+  "rank_F2_222": 7,
+  "rank_F2_222_source": "SAT: rank<=6 UNSAT, rank<=7 SAT (fp_filter.small_rank_table)",
+  "table": {
+   "2x2x2": 7
+  }
+ },
+ "resources": {
+  "per_log": {
+   "orbit_lns_*.jsonl": {
+    "records": 20799,
+    "solver_hours": 95.32
+   },
+   "C_555_*.jsonl": {
+    "records": 2412,
+    "solver_hours": 2.65
+   },
+   "C_666_*.jsonl": {
+    "records": 1578,
+    "solver_hours": 1.74
+   },
+   "n1_close*.jsonl": {
+    "records": 237,
+    "solver_hours": 0.71
+   },
+   "B2_w*.jsonl": {
+    "records": 100,
+    "solver_hours": 28.93
+   },
+   "B2_filter*.jsonl": {
+    "records": 23535,
+    "solver_hours": 0.0
+   },
+   "G47B_*.jsonl": {
+    "records": 3724,
+    "solver_hours": 0.14
+   },
+   "G46_filter.jsonl": {
+    "records": 23072,
+    "solver_hours": 0.27
+   },
+   "GL_odd.jsonl": {
+    "records": 1861,
+    "solver_hours": 3.31
+   },
+   "PC2.jsonl": {
+    "records": 452,
+    "solver_hours": 2.43
+   },
+   "gamma_scratch.jsonl": {
+    "records": 1,
+    "solver_hours": 2.08
+   },
+   "P1_*.jsonl": {
+    "records": 30375,
+    "solver_hours": 39.27
+   },
+   "ON5*.jsonl": {
+    "records": 150174,
+    "solver_hours": 80.2
+   },
+   "ON6*.jsonl": {
+    "records": 15160,
+    "solver_hours": 35.81
+   },
+   "C25*.jsonl": {
+    "records": 19194,
+    "solver_hours": 19.6
+   },
+   "C26*.jsonl": {
+    "records": 19197,
+    "solver_hours": 39.53
+   },
+   "ladder.jsonl": {
+    "records": 1,
+    "solver_hours": 0.91
+   }
+  },
+  "total_logged_records": 311872,
+  "total_solver_hours": 352.9,
+  "flip_walk_steps_5x5_6x6": {
+   "5": 561242274295.9939,
+   "6": 279542503838.6367
+  }
+ }
+}

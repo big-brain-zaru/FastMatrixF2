@@ -1,0 +1,91 @@
+  rank 49: VERIFIED (new record for this run)
+[   48.6s] launch 20: best=49 pool=47 elites=47 top-policy=[10000, 3, 500, 15] 40M steps/s
+[   96.6s] launch 40: best=49 pool=112 elites=112 top-policy=[10000, 3, 500, 15] 41M steps/s
+[  145.8s] launch 60: best=49 pool=189 elites=189 top-policy=[10000, 3, 500, 15] 40M steps/s
+[  195.0s] launch 80: best=49 pool=282 elites=256 top-policy=[10000, 3, 500, 15] 40M steps/s
+[  248.0s] launch 100: best=49 pool=394 elites=256 top-policy=[10000, 3, 500, 15] 40M steps/s
+[  311.0s] launch 120: best=49 pool=500 elites=256 top-policy=[10000, 3, 500, 15] 38M steps/s
+[  379.4s] launch 140: best=49 pool=643 elites=256 top-policy=[10000, 3, 500, 15] 36M steps/s
+[  431.1s] launch 160: best=49 pool=752 elites=256 top-policy=[10000, 3, 500, 15] 36M steps/s
+[  482.7s] launch 180: best=49 pool=877 elites=256 top-policy=[10000, 3, 500, 15] 37M steps/s
+[  556.2s] launch 200: best=49 pool=998 elites=256 top-policy=[10000, 3, 500, 15] 35M steps/s
+[  629.5s] launch 220: best=49 pool=1109 elites=256 top-policy=[10000, 3, 500, 15] 34M steps/s
+[  681.4s] launch 240: best=49 pool=1213 elites=256 top-policy=[10000, 3, 500, 15] 35M steps/s
+[  730.1s] launch 260: best=49 pool=1343 elites=256 top-policy=[10000, 3, 500, 15] 35M steps/s
+[  779.4s] launch 280: best=49 pool=1432 elites=256 top-policy=[10000, 3, 500, 15] 35M steps/s
+[  835.1s] launch 300: best=49 pool=1570 elites=256 top-policy=[10000, 3, 500, 15] 35M steps/s
+[  858.8s] launch 320: best=49 pool=1682 elites=256 top-policy=[10000, 3, 500, 15] 37M steps/s
+[  879.5s] launch 340: best=49 pool=1796 elites=256 top-policy=[10000, 3, 500, 15] 38M steps/s
+[  902.7s] launch 360: best=49 pool=1894 elites=256 top-policy=[10000, 3, 500, 15] 39M steps/s
+[  942.5s] launch 380: best=49 pool=2049 elites=256 top-policy=[10000, 3, 500, 15] 40M steps/s
+[  971.5s] launch 400: best=49 pool=2143 elites=256 top-policy=[10000, 3, 500, 15] 40M steps/s
+[  991.6s] launch 420: best=49 pool=2236 elites=256 top-policy=[10000, 3, 500, 15] 42M steps/s
+[ 1012.6s] launch 440: best=49 pool=2363 elites=256 top-policy=[10000, 3, 500, 15] 43M steps/s
+[ 1033.2s] launch 460: best=49 pool=2462 elites=256 top-policy=[10000, 3, 500, 15] 44M steps/s
+[ 1053.8s] launch 480: best=49 pool=2577 elites=256 top-policy=[10000, 3, 500, 15] 45M steps/s
+[ 1074.9s] launch 500: best=49 pool=2707 elites=256 top-policy=[10000, 3, 500, 15] 46M steps/s
+[ 1096.0s] launch 520: best=49 pool=2848 elites=256 top-policy=[10000, 3, 500, 15] 47M steps/s
+[ 1116.5s] launch 540: best=49 pool=2957 elites=256 top-policy=[10000, 3, 500, 15] 48M steps/s
+[ 1137.7s] launch 560: best=49 pool=3076 elites=256 top-policy=[10000, 3, 500, 15] 48M steps/s
+[ 1159.2s] launch 580: best=49 pool=3205 elites=256 top-policy=[10000, 3, 500, 15] 49M steps/s
+[ 1180.5s] launch 600: best=49 pool=3338 elites=256 top-policy=[10000, 3, 500, 15] 50M steps/s
+[ 1201.8s] launch 620: best=49 pool=3459 elites=256 top-policy=[10000, 3, 500, 15] 51M steps/s
+[ 1223.2s] launch 640: best=49 pool=3564 elites=256 top-policy=[10000, 3, 500, 15] 51M steps/s
+[ 1245.0s] launch 660: best=49 pool=3691 elites=256 top-policy=[10000, 3, 500, 15] 52M steps/s
+[ 1266.1s] launch 680: best=49 pool=3781 elites=256 top-policy=[10000, 3, 500, 15] 53M steps/s
+[ 1286.6s] launch 700: best=49 pool=3899 elites=256 top-policy=[10000, 3, 500, 15] 53M steps/s
+[ 1307.4s] launch 720: best=49 pool=4012 elites=256 top-policy=[10000, 3, 500, 15] 54M steps/s
+[ 1327.8s] launch 740: best=49 pool=4113 elites=256 top-policy=[10000, 3, 500, 15] 55M steps/s
+[ 1348.2s] launch 760: best=49 pool=4241 elites=256 top-policy=[10000, 3, 500, 15] 55M steps/s
+[ 1370.7s] launch 780: best=49 pool=4374 elites=256 top-policy=[10000, 3, 500, 15] 56M steps/s
+[ 1409.2s] launch 800: best=49 pool=4484 elites=256 top-policy=[10000, 3, 500, 15] 56M steps/s
+[ 1438.9s] launch 820: best=49 pool=4597 elites=256 top-policy=[10000, 3, 500, 15] 56M steps/s
+[ 1469.4s] launch 840: best=49 pool=4719 elites=256 top-policy=[10000, 3, 500, 15] 56M steps/s
+[ 1517.4s] launch 860: best=49 pool=4858 elites=256 top-policy=[10000, 3, 500, 15] 56M steps/s
+[ 1565.8s] launch 880: best=49 pool=4966 elites=256 top-policy=[10000, 3, 500, 15] 55M steps/s
+[ 1607.2s] launch 900: best=49 pool=5070 elites=256 top-policy=[10000, 3, 500, 15] 55M steps/s
+[ 1647.6s] launch 920: best=49 pool=5193 elites=256 top-policy=[10000, 3, 500, 15] 55M steps/s
+[ 1680.1s] launch 940: best=49 pool=5304 elites=256 top-policy=[10000, 3, 500, 15] 55M steps/s
+[ 1718.4s] launch 960: best=49 pool=5419 elites=256 top-policy=[10000, 3, 500, 15] 55M steps/s
+[ 1761.6s] launch 980: best=49 pool=5537 elites=256 top-policy=[10000, 3, 500, 15] 55M steps/s
+[ 1802.9s] launch 1000: best=49 pool=5653 elites=256 top-policy=[10000, 3, 500, 15] 55M steps/s
+[ 1840.7s] launch 1020: best=49 pool=5790 elites=256 top-policy=[10000, 3, 500, 15] 54M steps/s
+[ 1887.6s] launch 1040: best=49 pool=5928 elites=256 top-policy=[10000, 3, 500, 15] 54M steps/s
+[ 1933.7s] launch 1060: best=49 pool=6021 elites=256 top-policy=[10000, 3, 500, 15] 54M steps/s
+[ 1980.0s] launch 1080: best=49 pool=6131 elites=256 top-policy=[10000, 3, 500, 15] 54M steps/s
+[ 2028.2s] launch 1100: best=49 pool=6240 elites=256 top-policy=[10000, 3, 500, 15] 53M steps/s
+[ 2074.1s] launch 1120: best=49 pool=6346 elites=256 top-policy=[10000, 3, 500, 15] 53M steps/s
+[ 2121.6s] launch 1140: best=49 pool=6504 elites=256 top-policy=[10000, 3, 500, 15] 53M steps/s
+[ 2167.3s] launch 1160: best=49 pool=6612 elites=256 top-policy=[10000, 3, 500, 15] 53M steps/s
+[ 2217.5s] launch 1180: best=49 pool=6749 elites=256 top-policy=[10000, 3, 500, 15] 52M steps/s
+[ 2260.5s] launch 1200: best=49 pool=6875 elites=256 top-policy=[10000, 3, 500, 15] 52M steps/s
+[ 2304.2s] launch 1220: best=49 pool=6992 elites=256 top-policy=[10000, 3, 500, 15] 52M steps/s
+[ 2346.2s] launch 1240: best=49 pool=7124 elites=256 top-policy=[10000, 3, 500, 15] 52M steps/s
+[ 2385.5s] launch 1260: best=49 pool=7254 elites=256 top-policy=[10000, 3, 500, 15] 52M steps/s
+{
+ "format": [
+  4,
+  4,
+  4
+ ],
+ "target": 47,
+ "best_rank": 49,
+ "verified_ranks": [
+  49
+ ],
+ "pool_size": 7313,
+ "launches": 1267,
+ "total_steps": 124551168000,
+ "steps_per_sec": 51895862.33018772,
+ "seconds": 2400.0211656093597,
+ "policy_scores": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ]
+}

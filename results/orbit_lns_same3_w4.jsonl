@@ -1,0 +1,28 @@
+{"mode": "same", "deleted_orbits": [0, 4, 6], "deleted_sizes": [3, 6, 3], "refill_sizes": [12], "refill_subgroup_orders": [1], "results": [{"outcome": "unsat", "t": 3.3}]}
+{"mode": "same", "deleted_orbits": [0, 3, 6], "deleted_sizes": [3, 12, 3], "refill_sizes": [12, 6], "refill_subgroup_orders": [1, 2], "results": [{"outcome": "unsat", "t": 3.5}]}
+{"mode": "same", "deleted_orbits": [3, 6, 8], "deleted_sizes": [12, 3, 3], "refill_sizes": [12, 6], "refill_subgroup_orders": [1, 2], "results": [{"outcome": "unsat", "t": 4.0}]}
+{"mode": "same", "deleted_orbits": [1, 2, 8], "deleted_sizes": [6, 6, 3], "refill_sizes": [12, 3], "refill_subgroup_orders": [1, 4], "results": [{"outcome": "unsat", "t": 68.0}]}
+{"mode": "same", "deleted_orbits": [1, 4, 7], "deleted_sizes": [6, 6, 1], "refill_sizes": [12, 1], "refill_subgroup_orders": [1, 12], "results": [{"outcome": "unsat", "t": 4.1}]}
+{"mode": "same", "deleted_orbits": [0, 1, 8], "deleted_sizes": [3, 6, 3], "refill_sizes": [6, 6], "refill_subgroup_orders": [2, 2], "results": [{"outcome": "unsat", "t": 3.9}]}
+{"mode": "same", "deleted_orbits": [0, 2, 8], "deleted_sizes": [3, 6, 3], "refill_sizes": [6, 6], "refill_subgroup_orders": [2, 2], "results": [{"outcome": "unsat", "t": 3.6}]}
+{"mode": "same", "deleted_orbits": [0, 5, 6], "deleted_sizes": [3, 6, 3], "refill_sizes": [6, 6], "refill_subgroup_orders": [2, 2], "results": [{"outcome": "unsat", "t": 6.6}]}
+{"mode": "same", "deleted_orbits": [2, 6, 8], "deleted_sizes": [6, 3, 3], "refill_sizes": [6, 6], "refill_subgroup_orders": [2, 2], "results": [{"outcome": "unsat", "t": 7.6}]}
+{"mode": "same", "deleted_orbits": [5, 6, 8], "deleted_sizes": [6, 3, 3], "refill_sizes": [6, 6], "refill_subgroup_orders": [2, 2], "results": [{"outcome": "unsat", "t": 5.8}]}
+{"mode": "same", "deleted_orbits": [0, 4, 7], "deleted_sizes": [3, 6, 1], "refill_sizes": [6, 4], "refill_subgroup_orders": [2, 3], "results": [{"outcome": "unsat", "t": 5.1}]}
+{"mode": "same", "deleted_orbits": [1, 7, 8], "deleted_sizes": [6, 1, 3], "refill_sizes": [6, 4], "refill_subgroup_orders": [2, 3], "results": [{"outcome": "unsat", "t": 5.3}]}
+{"mode": "same", "deleted_orbits": [2, 8, 9], "deleted_sizes": [6, 3, 1], "refill_sizes": [6, 4], "refill_subgroup_orders": [2, 3], "results": [{"outcome": "unsat", "t": 4.8}]}
+{"mode": "same", "deleted_orbits": [5, 6, 7], "deleted_sizes": [6, 3, 1], "refill_sizes": [6, 4], "refill_subgroup_orders": [2, 3], "results": [{"outcome": "unsat", "t": 4.4}]}
+{"mode": "same", "deleted_orbits": [1, 7, 9], "deleted_sizes": [6, 1, 1], "refill_sizes": [6, 2], "refill_subgroup_orders": [2, 6], "results": [{"outcome": "unsat", "t": 4.5}]}
+{"mode": "same", "deleted_orbits": [2, 7, 9], "deleted_sizes": [6, 1, 1], "refill_sizes": [4, 4], "refill_subgroup_orders": [3, 3], "results": [{"outcome": "unsat", "t": 4.5}]}
+{"mode": "same", "deleted_orbits": [5, 7, 9], "deleted_sizes": [6, 1, 1], "refill_sizes": [6, 2], "refill_subgroup_orders": [2, 6], "results": [{"outcome": "unsat", "t": 4.7}]}
+{"mode": "same", "deleted_orbits": [0, 7, 8], "deleted_sizes": [3, 1, 3], "refill_sizes": [4, 3], "refill_subgroup_orders": [3, 4], "results": [{"outcome": "unsat", "t": 4.9}]}
+{"mode": "same", "deleted_orbits": [0, 7, 9], "deleted_sizes": [3, 1, 1], "refill_sizes": [3, 2], "refill_subgroup_orders": [4, 6], "results": [{"outcome": "unsat", "t": 4.8}]}
+{"mode": "same", "deleted_orbits": [1, 3, 4], "deleted_sizes": [6, 12, 6], "refill_sizes": [12, 6, 6], "refill_subgroup_orders": [1, 2, 2], "results": [{"outcome": "unsat", "t": 6.1}]}
+{"mode": "same", "deleted_orbits": [2, 3, 4], "deleted_sizes": [6, 12, 6], "refill_sizes": [12, 6, 6], "refill_subgroup_orders": [1, 2, 2], "results": [{"outcome": "unsat", "t": 224.2}]}
+{"mode": "same", "deleted_orbits": [0, 2, 3], "deleted_sizes": [3, 6, 12], "refill_sizes": [12, 6, 3], "refill_subgroup_orders": [1, 2, 4], "results": [{"outcome": "unsat", "t": 166.1}]}
+{"mode": "same", "deleted_orbits": [2, 3, 6], "deleted_sizes": [6, 12, 3], "refill_sizes": [12, 6, 3], "refill_subgroup_orders": [1, 2, 4], "results": [{"outcome": "sat", "t": 57.2, "rank": 47, "verified": true, "identical": true, "shared": [0, 0, 0]}, {"outcome": "sat", "t": 442.5, "rank": 47, "verified": true, "identical": true, "shared": [0, 0, 0]}, {"outcome": "sat", "t": 443.2, "rank": 47, "verified": true, "identical": true, "shared": [0, 0, 0]}, {"outcome": "sat", "t": 462.3, "rank": 47, "verified": true, "identical": true, "shared": [0, 0, 0]}, {"outcome": "sat", "t": 509.4, "rank": 47, "verified": true, "identical": true, "shared": [0, 0, 0]}]}
+{"mode": "same", "deleted_orbits": [3, 5, 8], "deleted_sizes": [12, 6, 3], "refill_sizes": [12, 6, 3], "refill_subgroup_orders": [1, 2, 4], "results": [{"outcome": "unsat", "t": 80.7}]}
+{"mode": "same", "deleted_orbits": [2, 3, 9], "deleted_sizes": [6, 12, 1], "refill_sizes": [12, 4, 3], "refill_subgroup_orders": [1, 3, 4], "results": [{"outcome": "unsat", "t": 125.1}]}
+{"mode": "same", "deleted_orbits": [3, 5, 9], "deleted_sizes": [12, 6, 1], "refill_sizes": [12, 4, 3], "refill_subgroup_orders": [1, 3, 4], "results": [{"outcome": "unsat", "t": 8.6}]}
+{"mode": "same", "deleted_orbits": [0, 3, 8], "deleted_sizes": [3, 12, 3], "refill_sizes": [12, 4, 2], "refill_subgroup_orders": [1, 3, 6], "results": [{"outcome": "unsat", "t": 7.1}]}
+{"mode": "same", "deleted_orbits": [1, 2, 4], "deleted_sizes": [6, 6, 6], "refill_sizes": [12, 3, 3], "refill_subgroup_orders": [1, 4, 4], "results": [{"outcome": "unsat", "t": 11.9}]}

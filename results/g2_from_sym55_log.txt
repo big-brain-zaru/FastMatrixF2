@@ -1,0 +1,29 @@
+  rank 55: VERIFIED (new record for this run)
+[   27.8s] launch 20: best=55 pool=197 elites=197 top-policy=[10000, 1, 0, 7] 71M steps/s
+  rank 54: VERIFIED (new record for this run)
+[   41.1s] best rank 54  pool=255  69M steps/s
+[   57.1s] launch 40: best=54 pool=255 elites=255 top-policy=[10000, 1, 0, 3] 69M steps/s
+[   89.3s] launch 60: best=54 pool=257 elites=256 top-policy=[300, 2, 200, 31] 66M steps/s
+  rank 53: VERIFIED (new record for this run)
+[   93.0s] best rank 53  pool=258  66M steps/s
+[  127.3s] launch 80: best=53 pool=258 elites=256 top-policy=[300, 2, 200, 31] 62M steps/s
+[  168.6s] launch 100: best=53 pool=259 elites=256 top-policy=[300, 2, 200, 31] 58M steps/s
+[  207.8s] launch 120: best=53 pool=262 elites=256 top-policy=[300, 2, 200, 31] 57M steps/s
+[  246.1s] launch 140: best=53 pool=270 elites=256 top-policy=[300, 2, 200, 31] 56M steps/s
+[  280.7s] launch 160: best=53 pool=299 elites=256 top-policy=[300, 2, 200, 31] 56M steps/s
+[  309.3s] launch 180: best=53 pool=375 elites=256 top-policy=[300, 2, 200, 31] 57M steps/s
+  rank 52: VERIFIED (new record for this run)
+[  330.2s] best rank 52  pool=562  58M steps/s
+[  336.9s] launch 200: best=52 pool=562 elites=256 top-policy=[300, 2, 200, 31] 58M steps/s
+[  364.0s] launch 220: best=52 pool=562 elites=256 top-policy=[300, 2, 200, 31] 59M steps/s
+[  391.0s] launch 240: best=52 pool=562 elites=256 top-policy=[300, 2, 200, 31] 60M steps/s
+[  416.9s] launch 260: best=52 pool=562 elites=256 top-policy=[300, 2, 200, 31] 61M steps/s
+[  447.2s] launch 280: best=52 pool=562 elites=256 top-policy=[300, 2, 200, 31] 62M steps/s
+[  473.1s] launch 300: best=52 pool=564 elites=256 top-policy=[300, 2, 200, 31] 62M steps/s
+[  502.9s] launch 320: best=52 pool=564 elites=256 top-policy=[300, 2, 200, 31] 63M steps/s
+[  533.0s] launch 340: best=52 pool=567 elites=256 top-policy=[300, 2, 200, 31] 63M steps/s
+[  563.1s] launch 360: best=52 pool=568 elites=256 top-policy=[300, 2, 200, 31] 63M steps/s
+[  589.9s] launch 380: best=52 pool=568 elites=256 top-policy=[300, 2, 200, 31] 63M steps/s
+[  620.2s] launch 400: best=52 pool=569 elites=256 top-policy=[300, 2, 200, 31] 63M steps/s
+[  653.7s] launch 420: best=52 pool=570 elites=256 top-policy=[300, 2, 200, 31] 63M steps/s
+[  687.5s] launch 440: best=52 pool=571 elites=256 top-policy=[300, 2, 200, 31] 63M steps/s

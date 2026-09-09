@@ -1,0 +1,1 @@
+encoding: slots=12 vars=2360683 clauses=7713419 max_rank=47

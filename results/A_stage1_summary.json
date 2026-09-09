@@ -1,0 +1,37 @@
+{
+ "stage": "A1",
+ "deleted_orbits_max": 2,
+ "refill_orbits_max": 4,
+ "instances": 4011,
+ "all_unsat": true,
+ "uncovered_D": [
+  [
+   7
+  ],
+  [
+   9
+  ]
+ ],
+ "timing_by_refill_count": {
+  "1": {
+   "n": 86,
+   "median": 2.7,
+   "max": 3.4
+  },
+  "2": {
+   "n": 558,
+   "median": 2.4,
+   "max": 24.2
+  },
+  "3": {
+   "n": 2124,
+   "median": 4.2,
+   "max": 109.7
+  },
+  "4": {
+   "n": 1243,
+   "median": 4.6,
+   "max": 166.1
+  }
+ }
+}

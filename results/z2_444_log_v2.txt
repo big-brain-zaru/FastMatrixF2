@@ -1,0 +1,15 @@
+  rank 64: VERIFIED  tau-symmetric=True
+  rank 63: VERIFIED  tau-symmetric=False
+  rank 62: VERIFIED  tau-symmetric=True
+[    1.7s] best rank 62  pool=7  58M steps/s
+[   31.9s] launch 20: best=62 pool=7 sym/asym pool adds=4/2 symBreaks=279825 top=[1000, 4, 200, 3] 62M steps/s
+  rank 61: VERIFIED  tau-symmetric=True
+[   36.8s] best rank 61  pool=9  61M steps/s
+  rank 60: VERIFIED  tau-symmetric=True
+[   46.8s] best rank 60  pool=10  61M steps/s
+[   65.6s] launch 40: best=60 pool=10 sym/asym pool adds=6/3 symBreaks=444244 top=[1000, 4, 200, 3] 60M steps/s
+  rank 59: VERIFIED  tau-symmetric=True
+[   74.8s] best rank 59  pool=28  60M steps/s
+  rank 58: VERIFIED  tau-symmetric=True
+[   79.1s] best rank 58  pool=29  61M steps/s
+[   97.1s] launch 60: best=58 pool=29 sym/asym pool adds=24/4 symBreaks=592982 top=[1000, 4, 200, 3] 61M steps/s

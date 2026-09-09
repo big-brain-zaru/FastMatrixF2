@@ -1,0 +1,8 @@
+{"concurrent": 1, "wall": 24.7, "solve_min": 23.9, "solve_median": 23.9, "solve_max": 23.9, "throughput_per_min": 2.43, "verdicts": ["False"]}
+{"concurrent": 4, "wall": 32.2, "solve_min": 31.3, "solve_median": 31.6, "solve_max": 31.6, "throughput_per_min": 7.46, "verdicts": ["False"]}
+{"concurrent": 6, "wall": 35.2, "solve_min": 34.1, "solve_median": 34.3, "solve_max": 34.5, "throughput_per_min": 10.23, "verdicts": ["False"]}
+{"concurrent": 8, "wall": 38.4, "solve_min": 37.0, "solve_median": 37.3, "solve_max": 37.7, "throughput_per_min": 12.5, "verdicts": ["False"]}
+{"concurrent": 10, "wall": 41.5, "solve_min": 39.4, "solve_median": 40.3, "solve_max": 40.8, "throughput_per_min": 14.46, "verdicts": ["False"]}
+{"concurrent": 12, "wall": 45.3, "solve_min": 42.7, "solve_median": 44.1, "solve_max": 44.3, "throughput_per_min": 15.88, "verdicts": ["False"]}
+{"concurrent": 16, "wall": 51.8, "solve_min": 49.9, "solve_median": 50.4, "solve_max": 50.8, "throughput_per_min": 18.52, "verdicts": ["False"]}
+{"concurrent": 24, "wall": 72.7, "solve_min": 61.2, "solve_median": 70.4, "solve_max": 71.2, "throughput_per_min": 19.8, "verdicts": ["False"]}

@@ -1,0 +1,580 @@
+{
+ "generated": "2026-09-06 15:45",
+ "family_5": {
+  "distinct": 307,
+  "all_verified": true,
+  "all_C3": true,
+  "expanded": 125,
+  "unexpanded": 182,
+  "expansion_instances": 140359,
+  "expansion_all_terminated_unsat": true,
+  "signatures": 18,
+  "sig_weight_classes": 272,
+  "shared_hist": {
+   "9/9/9": 77,
+   "7/7/7": 71,
+   "8/8/8": 60,
+   "5/5/5": 48,
+   "10/10/10": 23,
+   "11/11/11": 21,
+   "6/6/6": 6,
+   "12/12/12": 1
+  },
+  "common_hist": {
+   "69": 8,
+   "72": 35,
+   "75": 69,
+   "78": 102,
+   "81": 58,
+   "84": 26,
+   "87": 8,
+   "93": 1
+  }
+ },
+ "family_6": {
+  "distinct": 79,
+  "all_verified": true,
+  "all_C3": true,
+  "expanded": 5,
+  "unexpanded": 74,
+  "expansion_instances": 14280,
+  "expansion_all_terminated_unsat": true,
+  "signatures": 13,
+  "sig_weight_classes": 47,
+  "shared_hist": {
+   "16/16/16": 41,
+   "14/14/14": 25,
+   "12/12/12": 12,
+   "10/10/10": 1
+  },
+  "common_hist": {
+   "135": 10,
+   "138": 2,
+   "141": 48,
+   "144": 2,
+   "147": 16,
+   "153": 1
+  }
+ },
+ "reduce5_D2_all": {
+  "seeds": 64,
+  "instances": 41472,
+  "outcomes": {
+   "unsat": 41472
+  },
+  "solver_hours": 8.89,
+  "per_seed": {
+   "ON5red2_00": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_01": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_02": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_03": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_04": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_05": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_06": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_07": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_08": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_09": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_10": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_11": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_12": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_13": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_14": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_15": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_16": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_17": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_18": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_19": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_20": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_21": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_22": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_23": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_24": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_25": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_26": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_27": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_28": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_29": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_30": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_31": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_32": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_33": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_34": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_35": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_36": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_37": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_38": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_39": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_40": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_41": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_42": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_43": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_44": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_45": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_46": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_47": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_48": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_49": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_50": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_51": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_52": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_53": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_54": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_55": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_56": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_57": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_58": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_59": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_60": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_61": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_62": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   },
+   "ON5red2_63": {
+    "instances": 648,
+    "outcomes": {
+     "unsat": 648
+    }
+   }
+  }
+ },
+ "reduce5_D3_far": {
+  "seeds": 2,
+  "instances": 9635,
+  "outcomes": {
+   "unsat": 9635
+  },
+  "solver_hours": 17.91,
+  "per_seed": {
+   "ON5red3_00": {
+    "instances": 6851,
+    "outcomes": {
+     "unsat": 6851
+    }
+   },
+   "ON5red3_01": {
+    "instances": 2784,
+    "outcomes": {
+     "unsat": 2784
+    }
+   }
+  }
+ },
+ "reduce6_D2": {
+  "seeds": 11,
+  "instances": 16311,
+  "outcomes": {
+   "unsat": 16311
+  },
+  "solver_hours": 20.17,
+  "per_seed": {
+   "C26red2_00": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   },
+   "C26red2_01": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   },
+   "C26red2_02": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   },
+   "C26red2_03": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   },
+   "C26red2_04": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   },
+   "C26red2_05": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   },
+   "C26red2_06": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   },
+   "C26red2_07": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   },
+   "C26red2_08": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   },
+   "C26red2_09": {
+    "instances": 531,
+    "outcomes": {
+     "unsat": 531
+    }
+   },
+   "ON6red2_00": {
+    "instances": 1578,
+    "outcomes": {
+     "unsat": 1578
+    }
+   }
+  }
+ },
+ "reduce6_D3_far": {
+  "seeds": 0,
+  "instances": 0,
+  "outcomes": {},
+  "solver_hours": 0.0,
+  "per_seed": {}
+ },
+ "rank92_files": [],
+ "rank152_files": [],
+ "walks": {
+  "5": {
+   "walks": 218,
+   "best_ranks": {
+    "93": 218
+   },
+   "hits": 0,
+   "median_msteps": 35.4,
+   "total_steps": 561242274295.9939
+  },
+  "6": {
+   "walks": 77,
+   "best_ranks": {
+    "153": 77
+   },
+   "hits": 0,
+   "median_msteps": 26.1,
+   "total_steps": 279542503838.6367
+  }
+ }
+}

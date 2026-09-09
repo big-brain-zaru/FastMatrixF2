@@ -1,0 +1,23 @@
+{
+ "format": [
+  2,
+  2,
+  2
+ ],
+ "target": 7,
+ "best_rank_gpu": 7,
+ "verified_ranks": [
+  7
+ ],
+ "walks": 8192,
+ "launches": 1,
+ "total_flip_steps": 8192000,
+ "steps_per_sec": 411454451.88484937,
+ "seconds": 0.01990985870361328,
+ "progress": [
+  {
+   "t": 0.019896984100341797,
+   "best": 7
+  }
+ ]
+}

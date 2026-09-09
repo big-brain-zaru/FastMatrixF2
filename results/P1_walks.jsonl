@@ -1,0 +1,7 @@
+{"seed": "../results/records/lille_555_rank93.json", "seconds": 600.0, "best_rank": 93, "steps_per_sec": 43298382.85756668, "verified_hits": 0, "target_hit": false, "wall": 619.5}
+{"seed": "../results\\orbitn_5_same_rank93_D21-23_1.json", "seconds": 600.0, "best_rank": 93, "steps_per_sec": 33455543.046817586, "verified_hits": 0, "target_hit": false, "wall": 602.8}
+{"seed": "../results\\orbitn_5_same_rank93_D21-31_1.json", "seconds": 600.0, "best_rank": 93, "steps_per_sec": 31465836.68037837, "verified_hits": 0, "target_hit": false, "wall": 602.6}
+{"seed": "../results\\orbitn_5_same_rank93_D21-31_3.json", "seconds": 600.0, "best_rank": 93, "steps_per_sec": 31990832.112690177, "verified_hits": 0, "target_hit": false, "wall": 602.9}
+{"seed": "../results\\orbitn_5_same_rank93_D23-31_1.json", "seconds": 600.0, "best_rank": 93, "steps_per_sec": 30046303.84203358, "verified_hits": 0, "target_hit": false, "wall": 602.7}
+{"seed": "../results\\orbitn_5_same_rank93_D23-31_3.json", "seconds": 600.0, "best_rank": 93, "steps_per_sec": 28303714.95928191, "verified_hits": 0, "target_hit": false, "wall": 602.6}
+{"seed": "../results\\orbitn_5_same_rank93_D5-26_1.json", "seconds": 600.0, "best_rank": 93, "steps_per_sec": 30231070.917573743, "verified_hits": 0, "target_hit": false, "wall": 603.0}

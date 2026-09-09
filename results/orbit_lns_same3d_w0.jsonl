@@ -1,0 +1,3 @@
+{"mode": "same", "deleted_orbits": [1, 2, 3], "deleted_sizes": [6, 6, 12], "refill_sizes": [12, 6, 6], "refill_subgroup_orders": [1, 2, 2], "results": [{"outcome": "unsat", "t": 11369.5}]}
+{"mode": "same", "deleted_orbits": [1, 3, 5], "deleted_sizes": [6, 12, 6], "refill_sizes": [6, 6, 6, 6], "refill_subgroup_orders": [2, 2, 2, 2], "results": [{"outcome": "unsat", "t": 1711.7}]}
+{"mode": "same", "deleted_orbits": [1, 2, 3], "deleted_sizes": [6, 6, 12], "refill_sizes": [6, 6, 6, 6], "refill_subgroup_orders": [2, 2, 2, 2], "results": [{"outcome": "unsat", "t": 1595.1}]}

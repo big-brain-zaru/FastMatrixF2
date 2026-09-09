@@ -1,0 +1,8 @@
+ambient generators: 71
+|Omega| = 82944  (11.7s)
+cyclic subgroups by order: {1: 1, 2: 1719, 3: 940, 4: 6948, 6: 12708, 8: 1728, 9: 1536, 12: 5112, 24: 432} (13.5s)
+conjugacy classes of candidate groups: 64 (127.4s)
+
+groups: 64 classes; 64 can arithmetically reach rank 46, 0 eliminated for free
+by order (feasible only): {24: 1, 12: 1, 9: 1, 8: 1, 6: 1, 4: 1, 3: 1, 2: 1}
+saved ../results/census_n4_r46_cyclic.json

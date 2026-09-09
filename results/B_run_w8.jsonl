@@ -1,0 +1,2 @@
+{"group_index": 2, "group_order": 12, "multiset_index": 2, "orbit_sizes": [12, 12, 12, 6, 2, 2], "vars": 384800, "t": 1018.9, "sb": false, "conf": 1000000, "outcome": "budget"}
+{"group_index": 6, "group_order": 12, "multiset_index": 0, "orbit_sizes": [12, 12, 12, 6, 4], "vars": 384752, "t": 7.1, "sb": false, "conf": 1000000, "outcome": "unsat"}

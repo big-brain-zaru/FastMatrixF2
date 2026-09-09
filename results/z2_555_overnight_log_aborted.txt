@@ -1,0 +1,7 @@
+  rank 125: VERIFIED  tau-symmetric=True
+  rank 123: VERIFIED  tau-symmetric=True
+[   19.8s] best rank 123  pool=179  30M steps/s
+[   60.4s] launch 20: best=123 pool=179 sym/asym pool adds=178/0 symBreaks=0 top=[3000, 3, 200, 7] 33M steps/s
+[  110.6s] launch 40: best=123 pool=181 sym/asym pool adds=180/0 symBreaks=0 top=[1000, 3, 200, 7] 36M steps/s
+[  163.0s] launch 60: best=123 pool=186 sym/asym pool adds=185/0 symBreaks=0 top=[1000, 3, 200, 7] 36M steps/s
+[  197.3s] launch 80: best=123 pool=195 sym/asym pool adds=194/0 symBreaks=0 top=[1000, 2, 0, 15] 40M steps/s

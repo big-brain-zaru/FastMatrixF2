@@ -1,0 +1,1 @@
+{"n": 4, "group": "tau", "mode": "reduce", "deleted_orbits": [1], "deleted_sizes": [2], "refill_sizes": [1], "refill_subgroup_orders": [2], "vars": 4400, "clauses": 17243, "results": [{"outcome": "unsat", "t": 0.0}]}

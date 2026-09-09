@@ -1,0 +1,94 @@
+[
+ {
+  "slots_orders": [
+   1,
+   2,
+   2
+  ],
+  "verdict": "unsat",
+  "t": 403.0,
+  "vars": 17777,
+  "solutions": []
+ },
+ {
+  "slots_orders": [
+   1,
+   2,
+   2
+  ],
+  "verdict": "unsat",
+  "t": 15.7,
+  "vars": 17813,
+  "solutions": []
+ },
+ {
+  "slots_orders": [
+   1,
+   2,
+   2
+  ],
+  "verdict": "sat-limit",
+  "t": 10.2,
+  "vars": 17813,
+  "solutions": [
+   {
+    "verified": true,
+    "identical_to_47": true,
+    "rank": 47
+   },
+   {
+    "verified": true,
+    "identical_to_47": true,
+    "rank": 47
+   },
+   {
+    "verified": true,
+    "identical_to_47": true,
+    "rank": 47
+   },
+   {
+    "verified": true,
+    "identical_to_47": true,
+    "rank": 47
+   },
+   {
+    "verified": true,
+    "identical_to_47": true,
+    "rank": 47
+   }
+  ]
+ },
+ {
+  "slots_orders": [
+   1,
+   2,
+   2
+  ],
+  "verdict": "unsat",
+  "t": 0.4,
+  "vars": 17849,
+  "solutions": []
+ },
+ {
+  "slots_orders": [
+   1,
+   2,
+   2
+  ],
+  "verdict": "unsat",
+  "t": 0.1,
+  "vars": 17849,
+  "solutions": []
+ },
+ {
+  "slots_orders": [
+   1,
+   2,
+   2
+  ],
+  "verdict": "unsat",
+  "t": 0.2,
+  "vars": 17849,
+  "solutions": []
+ }
+]

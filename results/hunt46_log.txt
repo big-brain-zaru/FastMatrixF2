@@ -1,0 +1,16 @@
+seeding 47-term verified scheme from ../results/alphatensor_444_rank47.json
+{
+ "format": [
+  4,
+  4,
+  4
+ ],
+ "target": 46,
+ "best_rank_gpu": 47,
+ "verified_ranks": [],
+ "walks": 32768,
+ "launches": 863,
+ "total_flip_steps": 113115136000,
+ "steps_per_sec": 75277532.60337327,
+ "seconds": 1502.6413869857788
+}

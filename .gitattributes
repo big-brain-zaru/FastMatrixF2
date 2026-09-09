@@ -1,0 +1,18 @@
+# Keep binaries byte-exact and normalise text to LF in the repository.
+* text=auto
+
+*.pdf   binary
+*.png   binary
+*.npz   binary
+*.bz2   binary
+
+# Result data and logs: LF in the repository, never CRLF-converted.
+*.json  text eol=lf
+*.jsonl text eol=lf
+*.cnf   text eol=lf
+*.drat  text eol=lf
+*.mpl   text eol=lf
+
+*.py    text eol=lf
+*.tex   text eol=lf
+*.md    text eol=lf

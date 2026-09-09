@@ -1,0 +1,9 @@
+{
+ "stage": "N1-3",
+ "instances": 5737,
+ "unsat": 5669,
+ "relabelings": 465,
+ "budget": 17,
+ "new_47s": 0,
+ "solver_hours": 35.66
+}

@@ -1,0 +1,6 @@
+LNS-SAT on rank 47 <4,4,4>: delete k=8, solve k-1, timeout 60s, symmetric=False
+  try 0: removed 8 -> re-solved with 8: rank 47 VERIFIED=True (119.0s)
+  try 1: removed 8 -> re-solved with 8: rank 47 VERIFIED=True (7.8s)
+  try 2: removed 8 -> re-solved with 8: rank 47 VERIFIED=True (187.0s)
+  try 3: removed 8 -> re-solved with 8: rank 47 VERIFIED=True (6.7s)
+{"stats": {"sat": 4, "unsat": 0, "timeout": 0}, "seconds": 320.5429232120514}

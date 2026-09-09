@@ -1,0 +1,117 @@
+  rank 64: VERIFIED  tau-symmetric=True
+  rank 62: VERIFIED  tau-symmetric=True
+[    0.8s] best rank 62  pool=8  130M steps/s
+[   15.6s] launch 20: best=62 pool=8 sym/asym pool adds=7/0 symBreaks=0 top=[10000, 3, 0, 7] 126M steps/s
+  rank 61: VERIFIED  tau-symmetric=True
+[   18.3s] best rank 61  pool=9  123M steps/s
+  rank 60: VERIFIED  tau-symmetric=True
+[   23.6s] best rank 60  pool=10  121M steps/s
+[   33.0s] launch 40: best=60 pool=10 sym/asym pool adds=9/0 symBreaks=0 top=[300, 2, 0, 7] 119M steps/s
+  rank 59: VERIFIED  tau-symmetric=True
+[   38.7s] best rank 59  pool=48  119M steps/s
+  rank 58: VERIFIED  tau-symmetric=True
+[   41.0s] best rank 58  pool=49  120M steps/s
+[   48.3s] launch 60: best=58 pool=49 sym/asym pool adds=48/0 symBreaks=0 top=[1000, 2, 200, 3] 122M steps/s
+  rank 57: VERIFIED  tau-symmetric=True
+[   56.7s] best rank 57  pool=57  123M steps/s
+[   63.0s] launch 80: best=57 pool=57 sym/asym pool adds=56/0 symBreaks=0 top=[1000, 2, 200, 3] 125M steps/s
+[   75.8s] launch 100: best=57 pool=108 sym/asym pool adds=107/0 symBreaks=0 top=[1000, 1, 200, 3] 130M steps/s
+  rank 56: VERIFIED  tau-symmetric=True
+[   77.4s] best rank 56  pool=140  131M steps/s
+[   85.5s] launch 120: best=56 pool=140 sym/asym pool adds=139/0 symBreaks=0 top=[1000, 1, 200, 3] 138M steps/s
+[   94.5s] launch 140: best=56 pool=145 sym/asym pool adds=144/0 symBreaks=0 top=[1000, 1, 200, 3] 146M steps/s
+[  103.3s] launch 160: best=56 pool=176 sym/asym pool adds=175/0 symBreaks=0 top=[1000, 1, 200, 3] 152M steps/s
+  rank 55: VERIFIED  tau-symmetric=True
+[  105.0s] best rank 55  pool=191  154M steps/s
+[  111.9s] launch 180: best=55 pool=191 sym/asym pool adds=190/0 symBreaks=0 top=[1000, 1, 200, 3] 158M steps/s
+[  120.3s] launch 200: best=55 pool=194 sym/asym pool adds=193/0 symBreaks=0 top=[1000, 1, 200, 3] 163M steps/s
+[  128.5s] launch 220: best=55 pool=206 sym/asym pool adds=205/0 symBreaks=0 top=[1000, 1, 200, 3] 168M steps/s
+[  136.6s] launch 240: best=55 pool=267 sym/asym pool adds=266/0 symBreaks=0 top=[1000, 1, 200, 3] 173M steps/s
+[  144.0s] launch 260: best=55 pool=417 sym/asym pool adds=416/0 symBreaks=0 top=[1000, 1, 200, 3] 177M steps/s
+[  151.9s] launch 280: best=55 pool=691 sym/asym pool adds=690/0 symBreaks=0 top=[1000, 1, 200, 3] 181M steps/s
+[  158.8s] launch 300: best=55 pool=922 sym/asym pool adds=921/0 symBreaks=0 top=[1000, 1, 200, 3] 186M steps/s
+[  166.1s] launch 320: best=55 pool=1198 sym/asym pool adds=1197/0 symBreaks=0 top=[1000, 1, 200, 3] 189M steps/s
+[  173.6s] launch 340: best=55 pool=1457 sym/asym pool adds=1456/0 symBreaks=0 top=[1000, 1, 200, 3] 192M steps/s
+[  181.4s] launch 360: best=55 pool=1705 sym/asym pool adds=1704/0 symBreaks=0 top=[1000, 1, 200, 3] 195M steps/s
+[  189.5s] launch 380: best=55 pool=1985 sym/asym pool adds=1984/0 symBreaks=0 top=[1000, 1, 200, 3] 197M steps/s
+[  197.6s] launch 400: best=55 pool=2212 sym/asym pool adds=2211/0 symBreaks=0 top=[1000, 1, 200, 3] 199M steps/s
+[  205.9s] launch 420: best=55 pool=2460 sym/asym pool adds=2459/0 symBreaks=0 top=[1000, 1, 200, 3] 201M steps/s
+[  214.4s] launch 440: best=55 pool=2733 sym/asym pool adds=2732/0 symBreaks=0 top=[1000, 1, 200, 3] 202M steps/s
+[  222.5s] launch 460: best=55 pool=2999 sym/asym pool adds=2998/0 symBreaks=0 top=[1000, 1, 200, 3] 203M steps/s
+[  230.5s] launch 480: best=55 pool=3274 sym/asym pool adds=3273/0 symBreaks=0 top=[1000, 1, 200, 3] 205M steps/s
+[  238.4s] launch 500: best=55 pool=3554 sym/asym pool adds=3553/0 symBreaks=0 top=[1000, 1, 200, 3] 206M steps/s
+[  246.4s] launch 520: best=55 pool=3807 sym/asym pool adds=3806/0 symBreaks=0 top=[1000, 1, 200, 3] 207M steps/s
+[  254.5s] launch 540: best=55 pool=4072 sym/asym pool adds=4071/0 symBreaks=0 top=[1000, 1, 200, 3] 209M steps/s
+[  262.4s] launch 560: best=55 pool=4290 sym/asym pool adds=4289/0 symBreaks=0 top=[1000, 1, 200, 3] 210M steps/s
+[  270.6s] launch 580: best=55 pool=4538 sym/asym pool adds=4537/0 symBreaks=0 top=[1000, 1, 200, 3] 211M steps/s
+[  278.9s] launch 600: best=55 pool=4774 sym/asym pool adds=4773/0 symBreaks=0 top=[1000, 1, 200, 3] 211M steps/s
+[  287.3s] launch 620: best=55 pool=5061 sym/asym pool adds=5060/0 symBreaks=0 top=[1000, 1, 200, 3] 212M steps/s
+[  295.7s] launch 640: best=55 pool=5315 sym/asym pool adds=5314/0 symBreaks=0 top=[1000, 1, 200, 3] 213M steps/s
+[  303.9s] launch 660: best=55 pool=5591 sym/asym pool adds=5590/0 symBreaks=0 top=[1000, 1, 200, 3] 213M steps/s
+[  312.9s] launch 680: best=55 pool=5870 sym/asym pool adds=5869/0 symBreaks=0 top=[1000, 1, 200, 3] 214M steps/s
+[  321.5s] launch 700: best=55 pool=6133 sym/asym pool adds=6132/0 symBreaks=0 top=[1000, 1, 200, 3] 214M steps/s
+[  330.4s] launch 720: best=55 pool=6392 sym/asym pool adds=6391/0 symBreaks=0 top=[1000, 1, 200, 3] 214M steps/s
+[  339.9s] launch 740: best=55 pool=6681 sym/asym pool adds=6680/0 symBreaks=0 top=[1000, 1, 200, 3] 214M steps/s
+[  348.3s] launch 760: best=55 pool=6933 sym/asym pool adds=6932/0 symBreaks=0 top=[1000, 1, 200, 3] 215M steps/s
+[  356.7s] launch 780: best=55 pool=7159 sym/asym pool adds=7158/0 symBreaks=0 top=[1000, 1, 200, 3] 215M steps/s
+[  365.5s] launch 800: best=55 pool=7432 sym/asym pool adds=7431/0 symBreaks=0 top=[1000, 1, 200, 3] 215M steps/s
+[  373.8s] launch 820: best=55 pool=7704 sym/asym pool adds=7703/0 symBreaks=0 top=[1000, 1, 200, 3] 216M steps/s
+[  382.5s] launch 840: best=55 pool=7939 sym/asym pool adds=7938/0 symBreaks=0 top=[1000, 1, 200, 3] 216M steps/s
+[  391.6s] launch 860: best=55 pool=8227 sym/asym pool adds=8226/0 symBreaks=0 top=[1000, 1, 200, 3] 216M steps/s
+[  400.1s] launch 880: best=55 pool=8470 sym/asym pool adds=8469/0 symBreaks=0 top=[1000, 1, 200, 3] 216M steps/s
+[  409.0s] launch 900: best=55 pool=8710 sym/asym pool adds=8709/0 symBreaks=0 top=[1000, 1, 200, 3] 216M steps/s
+[  417.9s] launch 920: best=55 pool=8931 sym/asym pool adds=8930/0 symBreaks=0 top=[1000, 1, 200, 3] 216M steps/s
+[  426.7s] launch 940: best=55 pool=9168 sym/asym pool adds=9167/0 symBreaks=0 top=[1000, 1, 200, 3] 217M steps/s
+[  434.9s] launch 960: best=55 pool=9402 sym/asym pool adds=9401/0 symBreaks=0 top=[1000, 1, 200, 3] 217M steps/s
+[  444.4s] launch 980: best=55 pool=9678 sym/asym pool adds=9677/0 symBreaks=0 top=[1000, 1, 200, 3] 217M steps/s
+[  453.1s] launch 1000: best=55 pool=9989 sym/asym pool adds=9988/0 symBreaks=0 top=[1000, 1, 200, 3] 217M steps/s
+[  461.7s] launch 1020: best=55 pool=10230 sym/asym pool adds=10229/0 symBreaks=0 top=[1000, 1, 200, 3] 217M steps/s
+[  470.2s] launch 1040: best=55 pool=10507 sym/asym pool adds=10506/0 symBreaks=0 top=[1000, 1, 200, 3] 217M steps/s
+[  478.8s] launch 1060: best=55 pool=10783 sym/asym pool adds=10782/0 symBreaks=0 top=[1000, 1, 200, 3] 218M steps/s
+[  487.4s] launch 1080: best=55 pool=11039 sym/asym pool adds=11038/0 symBreaks=0 top=[1000, 1, 200, 3] 218M steps/s
+[  496.8s] launch 1100: best=55 pool=11325 sym/asym pool adds=11324/0 symBreaks=0 top=[1000, 1, 200, 3] 218M steps/s
+[  504.9s] launch 1120: best=55 pool=11539 sym/asym pool adds=11538/0 symBreaks=0 top=[1000, 1, 200, 3] 218M steps/s
+[  513.5s] launch 1140: best=55 pool=11790 sym/asym pool adds=11789/0 symBreaks=0 top=[1000, 1, 200, 3] 218M steps/s
+[  523.0s] launch 1160: best=55 pool=12056 sym/asym pool adds=12055/0 symBreaks=0 top=[1000, 1, 200, 3] 218M steps/s
+[  533.2s] launch 1180: best=55 pool=12286 sym/asym pool adds=12285/0 symBreaks=0 top=[1000, 1, 200, 3] 218M steps/s
+[  543.4s] launch 1200: best=55 pool=12519 sym/asym pool adds=12518/0 symBreaks=0 top=[1000, 1, 200, 3] 217M steps/s
+[  554.7s] launch 1220: best=55 pool=12750 sym/asym pool adds=12749/0 symBreaks=0 top=[1000, 1, 200, 3] 216M steps/s
+[  567.0s] launch 1240: best=55 pool=13006 sym/asym pool adds=13005/0 symBreaks=0 top=[1000, 1, 200, 3] 215M steps/s
+[  578.4s] launch 1260: best=55 pool=13269 sym/asym pool adds=13268/0 symBreaks=0 top=[1000, 1, 200, 3] 214M steps/s
+[  589.8s] launch 1280: best=55 pool=13541 sym/asym pool adds=13540/0 symBreaks=0 top=[1000, 1, 200, 3] 213M steps/s
+[  601.3s] launch 1300: best=55 pool=13823 sym/asym pool adds=13822/0 symBreaks=0 top=[1000, 1, 200, 3] 213M steps/s
+[  612.1s] launch 1320: best=55 pool=14063 sym/asym pool adds=14062/0 symBreaks=0 top=[1000, 1, 200, 3] 212M steps/s
+[  623.7s] launch 1340: best=55 pool=14290 sym/asym pool adds=14289/0 symBreaks=0 top=[1000, 1, 200, 3] 211M steps/s
+[  635.3s] launch 1360: best=55 pool=14571 sym/asym pool adds=14570/0 symBreaks=0 top=[1000, 1, 200, 3] 210M steps/s
+[  646.8s] launch 1380: best=55 pool=14808 sym/asym pool adds=14807/0 symBreaks=0 top=[1000, 1, 200, 3] 210M steps/s
+[  658.1s] launch 1400: best=55 pool=15010 sym/asym pool adds=15009/0 symBreaks=0 top=[1000, 1, 200, 3] 209M steps/s
+[  669.3s] launch 1420: best=55 pool=15297 sym/asym pool adds=15296/0 symBreaks=0 top=[1000, 1, 200, 3] 209M steps/s
+[  680.0s] launch 1440: best=55 pool=15582 sym/asym pool adds=15581/0 symBreaks=0 top=[1000, 1, 200, 3] 208M steps/s
+[  689.7s] launch 1460: best=55 pool=15818 sym/asym pool adds=15817/0 symBreaks=0 top=[1000, 1, 200, 3] 208M steps/s
+[  698.6s] launch 1480: best=55 pool=16061 sym/asym pool adds=16060/0 symBreaks=0 top=[1000, 1, 200, 3] 208M steps/s
+{
+ "format": [
+  4,
+  4,
+  4
+ ],
+ "target": 47,
+ "best_rank": 55,
+ "verified_ranks": [
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  64
+ ],
+ "pool": 16124,
+ "launches": 1484,
+ "total_steps": 145883136000,
+ "steps_per_sec": 208325868.1931984,
+ "seconds": 700.2641451358795,
+ "sym_breaks": 0
+}

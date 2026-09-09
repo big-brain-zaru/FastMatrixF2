@@ -1,0 +1,26 @@
+  rank 64: VERIFIED  tau-symmetric=True
+  rank 63: VERIFIED  tau-symmetric=True
+  rank 62: VERIFIED  tau-symmetric=True
+[    4.3s] best rank 62  pool=83  114M steps/s
+[   16.3s] launch 20: best=62 pool=83 sym/asym pool adds=79/3 symBreaks=20956 top=[10000, 1, 200, 15] 120M steps/s
+  rank 60: VERIFIED  tau-symmetric=True
+[   31.4s] best rank 60  pool=86  122M steps/s
+[   32.3s] launch 40: best=60 pool=86 sym/asym pool adds=82/3 symBreaks=36274 top=[10000, 1, 200, 15] 122M steps/s
+  rank 58: VERIFIED  tau-symmetric=True
+[   34.7s] best rank 58  pool=92  122M steps/s
+[   47.7s] launch 60: best=58 pool=92 sym/asym pool adds=88/3 symBreaks=48564 top=[300, 2, 500, 15] 124M steps/s
+[   62.0s] launch 80: best=58 pool=156 sym/asym pool adds=152/3 symBreaks=58887 top=[300, 2, 500, 15] 127M steps/s
+[   76.1s] launch 100: best=58 pool=569 sym/asym pool adds=562/6 symBreaks=68811 top=[300, 2, 500, 15] 129M steps/s
+[   90.2s] launch 120: best=58 pool=1126 sym/asym pool adds=1114/11 symBreaks=79049 top=[300, 2, 500, 15] 131M steps/s
+[  103.7s] launch 140: best=58 pool=1725 sym/asym pool adds=1710/14 symBreaks=91578 top=[300, 2, 500, 15] 133M steps/s
+[  113.6s] launch 160: best=58 pool=2275 sym/asym pool adds=2255/19 symBreaks=102246 top=[300, 2, 500, 15] 138M steps/s
+[  125.0s] launch 180: best=58 pool=2859 sym/asym pool adds=2837/21 symBreaks=114337 top=[300, 2, 500, 15] 142M steps/s
+[  135.3s] launch 200: best=58 pool=3385 sym/asym pool adds=3362/22 symBreaks=124746 top=[300, 2, 500, 15] 145M steps/s
+[  146.0s] launch 220: best=58 pool=3952 sym/asym pool adds=3920/31 symBreaks=136121 top=[300, 2, 500, 15] 148M steps/s
+[  156.5s] launch 240: best=58 pool=4443 sym/asym pool adds=4406/36 symBreaks=146347 top=[300, 2, 500, 15] 151M steps/s
+[  166.5s] launch 260: best=58 pool=5002 sym/asym pool adds=4959/42 symBreaks=158634 top=[300, 2, 500, 15] 153M steps/s
+[  176.5s] launch 280: best=58 pool=5561 sym/asym pool adds=5517/43 symBreaks=169028 top=[300, 2, 500, 15] 156M steps/s
+[  187.1s] launch 300: best=58 pool=6076 sym/asym pool adds=6029/46 symBreaks=181795 top=[300, 2, 500, 15] 158M steps/s
+[  197.4s] launch 320: best=58 pool=6661 sym/asym pool adds=6606/54 symBreaks=193232 top=[300, 2, 500, 15] 159M steps/s
+[  210.0s] launch 340: best=58 pool=7178 sym/asym pool adds=7119/58 symBreaks=204832 top=[300, 2, 500, 15] 159M steps/s
+[  220.1s] launch 360: best=58 pool=7778 sym/asym pool adds=7717/60 symBreaks=216609 top=[300, 2, 500, 15] 161M steps/s
