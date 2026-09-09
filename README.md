@@ -150,7 +150,10 @@ python pool_runner.py --task glsym_task --workers 4 --wall 300 --log ../results/
 Two categories are kept out of this repository and are in the Zenodo deposit instead: the solver
 stdout/stderr files, which are process output rather than results, and about 80 MB of flip-graph walker
 pools holding thousands of rank-49, rank-50 and rank-55 schemes, which the papers and the
-`*_dissection.json` digests summarise. Everything the papers cite as evidence is here.
+`*_dissection.json` digests summarise. Everything the papers cite as evidence is here, and every command
+in the Usage section above runs from a fresh clone. The one script that needs the walker pools is
+`experiments/h4_ancestors.py`, which re-derives the retired steering hypothesis of the paper's
+Section 11; `report_figures.py` skips the pool summary when they are absent.
 
 ## Data format
 

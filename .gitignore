@@ -19,7 +19,6 @@ results/z2_444_pool.json
 results/z2_444_rk3_pool.json
 results/gated50_pool.json
 results/newbasin_49_pool.json
-results/B2_worklist.json
 
 # --- machine-specific launchers (hardcode local absolute paths) --------------
 # The campaigns were driven by these; they are scaffolding, not results.
