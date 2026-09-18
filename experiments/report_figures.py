@@ -155,7 +155,7 @@ data["new_93s"] = {"files": len(new93), "distinct_schemes": len(sets93), "shared
 pools = {}
 for f in ["z2_444_pool.json", "gated50_pool.json", "newbasin_49_pool.json", "g2_444_released_pool.json", "z2_444_rk3_pool.json", "g2_444_rk3_pool.json"]:
     if not os.path.exists(os.path.join(R, f)):
-        continue     # bulk walker pools ship only in the Zenodo archive; every figure works without them
+        continue     # bulk walker pools are not published; every figure works without them
     d = json.load(open(os.path.join(R, f))); sch = d["schemes"]
     ranks = collections.Counter(len(s) if isinstance(s, list) else len(s.get("scheme_bitmasks", s.get("scheme", []))) for s in sch)
     pools[f] = {"n": len(sch), "ranks": dict(ranks)}

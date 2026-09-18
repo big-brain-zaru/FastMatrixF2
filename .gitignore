@@ -1,5 +1,5 @@
 # fast-matrix — files kept out of the public repository.
-# The complete archive, including everything excluded here, is deposited on Zenodo.
+# The Zenodo record archives this repository exactly; nothing excluded here is deposited there.
 
 # --- internal campaign notes (day logs, plans, audits) -----------------------
 docs/
@@ -11,7 +11,7 @@ results/**/*.log
 results/**/*.err
 
 # --- bulk walker pools (thousands of rank-49/50/55 schemes, ~80 MB) ----------
-# Summarised in the papers and in results/*_dissection.json; full pools on Zenodo.
+# Summarised in the papers and in results/*_dissection.json.
 results/g2_444_released_pool.json
 results/g2_444_relgated_pool.json
 results/g2_444_rk3_pool.json

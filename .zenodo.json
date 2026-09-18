@@ -1,0 +1,27 @@
+{
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "title": "Exact Symmetry-Stratified Search for Fast Matrix Multiplication over F2: A Second Inequivalent Rank-47 Scheme for 4x4, Rigidity Theorems, and Large Same-Rank Families at 5x5 and 6x6",
+  "creators": [
+    {
+      "name": "Zaru, Nadim F.",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "<p>An exact, symmetry-stratified computational search for bilinear matrix-multiplication schemes over the field with two elements, run on a single consumer laptop. Every scheme is accepted only after a direct check of all n^6 Brent equations, and every negative result is a solver refutation rather than an exhausted budget.</p><p><strong>Results.</strong> (1) The rank-47 &lt;4,4,4&gt; factorization published by AlphaTensor is exactly invariant under a group of order 12, an S3 of permutation sandwiches together with a transpose-swap involution, with orbit sizes 12,6,6,6,6,3,3,3,1,1. (2) Searching from scratch under that symmetry produced a second, host-verified rank-47 scheme for 4x4 over F2 that shares no term with AlphaTensor's, has a different GL(4,2)^3-invariant factor-rank signature, and is therefore inequivalent to it under every change of basis and slot symmetry. (3) Both rank-47 schemes are locally rigid and flip-isolated, established by 28,835 decided SAT instances. (4) A fixed-point restriction lemma for involution-symmetric schemes refutes symmetry classes at negligible cost and re-derives rank_F2&lt;2,2,2&gt; = 7 by SAT. (5) At 5x5 and 6x6 the published rank-93 and rank-153 schemes sit in families of 307 and 79 distinct host-verified same-rank schemes, where one of each was previously known.</p><p><strong>Scope.</strong> No published record is improved, and whether a rank-46 scheme for 4x4 over F2 exists remains open. Every refutation is exact but conditional on a symmetry assumption and local to a stated rewrite radius; Section 12 of the paper states the scope of each class of result precisely.</p><p><strong>Contents.</strong> The paper and its supplement with LaTeX sources, seven figures, the search and verification code, and the evidence: every host-verified scheme, one JSON record per SAT instance for every campaign, DRAT certificates for a sample of refutations, and the frozen state of two censuses that are enumerated and resumable. A fresh clone reproduces all 21 checks of the reproduction script, regenerates all seven figures byte-identically, and rebuilds both PDFs.</p>",
+  "keywords": [
+    "matrix multiplication",
+    "bilinear complexity",
+    "tensor rank",
+    "Brent equations",
+    "finite fields",
+    "SAT solving",
+    "symmetry breaking",
+    "flip graphs",
+    "Strassen",
+    "AlphaTensor"
+  ],
+  "notes": "Computations were performed on a single NVIDIA GeForce RTX 5070 Laptop GPU and 12 CPU cores, using CaDiCaL 1.9.5 through PySAT. The per-instance logs account for 352.9 solver-hours over 311,872 instance records. Two categories of intermediate data are deliberately omitted: solver stdout and stderr, which are process output rather than results, and the bulk flip-graph walker pools, which the papers and the *_dissection.json digests summarise."
+}

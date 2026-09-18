@@ -1,4 +1,4 @@
-"""Recompute every headline number quoted in the Zenodo paper (main.tex / supplement.tex) from the
+"""Recompute every headline number quoted in the paper (main.tex / supplement.tex) from the
 raw artefacts in results/, and write paper/paper_data.json. Nothing here is transcribed from a
 narrative document: schemes are re-verified against the Brent equations, invariants are recomputed,
 and campaign tallies are re-aggregated from the per-instance JSONL logs.

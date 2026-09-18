@@ -1,4 +1,4 @@
-"""Generate the seven publication figures for the Zenodo paper, as PDF (for LaTeX) and PNG (for the
+"""Generate the seven publication figures for the paper, as PDF (for LaTeX) and PNG (for the
 README), into figures/. All inputs are raw artefacts under results/ plus paper/paper_data.json, which is
 itself recomputed from results/ by paper_data.py. Nothing is typed in by hand.
 
