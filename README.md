@@ -1,9 +1,6 @@
 # Exact Symmetry-Stratified Search for Fast Matrix Multiplication over F₂
 
-<!-- After the Zenodo deposit, add the DOI badge on the line below and fill the DOI into the
-     Citation block at the bottom of this file:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22823114.svg)](https://doi.org/10.5281/zenodo.22823114)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An exact, symmetry-stratified search for bilinear matrix-multiplication schemes over the field with two
@@ -118,6 +115,8 @@ python pool_runner.py --task glsym_task --workers 4 --wall 300 --log ../results/
 .
 ├── README.md
 ├── LICENSE                       # MIT
+├── CITATION.cff                  # machine-readable citation metadata
+├── .zenodo.json                  # metadata for the Zenodo archive
 ├── requirements.txt
 ├── main.tex / main.pdf           # Paper
 ├── supplement.tex / supplement.pdf
@@ -187,13 +186,22 @@ is indexed (i, j), the `b` factor (j, k) and the `c` factor (k, i).
 
 ## Citation
 
+Machine-readable metadata is in [`CITATION.cff`](CITATION.cff) and, for the Zenodo archive, in
+[`.zenodo.json`](.zenodo.json). GitHub renders the first as a "Cite this repository" button. The DOI
+above is the concept DOI and always resolves to the latest version; the version DOI for v1.0.0 is
+[10.5281/zenodo.22823115](https://doi.org/10.5281/zenodo.22823115).
+
+
 ```bibtex
 @misc{zaru2026fastmatrix,
-  title={Exact Symmetry-Stratified Search for Fast Matrix Multiplication over F2:
-         A Second Inequivalent Rank-47 Scheme for 4x4, Rigidity Theorems,
-         and Large Same-Rank Families at 5x5 and 6x6},
-  author={Zaru, Nadim F.},
-  year={2026}
+  title     = {Exact Symmetry-Stratified Search for Fast Matrix Multiplication over F2:
+               A Second Inequivalent Rank-47 Scheme for 4x4, Rigidity Theorems,
+               and Large Same-Rank Families at 5x5 and 6x6},
+  author    = {Zaru, Nadim F.},
+  year      = {2026},
+  doi       = {10.5281/zenodo.22823114},
+  publisher = {Zenodo},
+  url       = {https://doi.org/10.5281/zenodo.22823114}
 }
 ```
 
